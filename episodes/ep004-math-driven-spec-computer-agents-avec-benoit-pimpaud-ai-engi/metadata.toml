@@ -1,0 +1,31 @@
+[episode]
+number = 4
+title = "S01E04 — Math Driven Spec, Computer agents (avec Benoit Pimpaud)"
+slug = "s01e04-math-driven-spec-computer-agents-benoit-pimpaud"
+description = "Quatrième épisode avec Benoit Pimpaud — on parle de math-driven specs, computer agents (Perplexity), la troisième ère du développement logiciel, et vibe coding."
+tags = ["math-driven-spec", "computer-agents", "perplexity", "vibe-coding", "software-engineering"]
+category = "Technology"
+language = "fr"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=35_qFKstMoc"
+youtube_id = "35_qFKstMoc"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"
