@@ -1,1 +1,1074 @@
-[00:00:00.000 -> ?]
+[00:00:00.000 -> 00:00:02.000] Salut, vous allez bien ?
+[00:00:02.000 -> 00:00:04.000] Salut, ouais, ça va.
+[00:00:04.000 -> 00:00:06.000] Épisode 3 du AI Engineering Podcast.
+[00:00:06.000 -> 00:00:08.000] On a déjà publié deux, c'est vachement régulier.
+[00:00:08.000 -> 00:00:10.000] Aujourd'hui, on a Alexis avec nous.
+[00:00:10.000 -> 00:00:12.000] Salut, ouais, enchanté.
+[00:00:12.000 -> 00:00:14.000] Alexis, du coup, je travaille dans une petite start-up.
+[00:00:14.000 -> 00:00:16.000] Je fais de la data chez Jolimois.
+[00:00:16.000 -> 00:00:18.000] Je suis data manager pour une organisation
+[00:00:18.000 -> 00:00:20.000] qui s'appelle UrbanSketcher.
+[00:00:20.000 -> 00:00:22.000] Je suis dessinateur sur le vif.
+[00:00:22.000 -> 00:00:24.000] Sur les 5 continents, je ne sais pas combien
+[00:00:24.000 -> 00:00:26.000] il y a de personnes qui pratiquent ça,
+[00:00:26.000 -> 00:00:28.000] mais bon, c'est assez intéressant.
+[00:00:28.000 -> 00:00:30.000] Le lien entre l'IA et l'art, ça m'intéresse énormément.
+[00:00:30.000 -> 00:00:32.000] Et puis voilà, écoutez les gars.
+[00:00:32.000 -> 00:00:34.000] En tout cas, enchanté d'être là.
+[00:00:34.000 -> 00:00:36.000] Très cool. Ça va Julien, toi ?
+[00:00:36.000 -> 00:00:38.000] Ouais, très bien. Je suis content.
+[00:00:38.000 -> 00:00:40.000] On a le podcast qui est sur Spotify maintenant
+[00:00:40.000 -> 00:00:42.000] et sur Apple Podcast.
+[00:00:42.000 -> 00:00:44.000] Les gens peuvent écouter sans la vidéo,
+[00:00:44.000 -> 00:00:46.000] sans avoir YouTube qui s'arrête automatiquement
+[00:00:46.000 -> 00:00:48.000] dans la poche.
+[00:00:48.000 -> 00:00:50.000] Vous pouvez utiliser Spotify, Apple Podcast.
+[00:00:50.000 -> 00:00:52.000] Voilà, on améliore le pod toutes les semaines.
+[00:00:52.000 -> 00:00:54.000] Un jour, on aura peut-être même une musique d'intro.
+[00:00:54.000 -> 00:00:56.000] Ah oui, on pourra faire un petit générique.
+[00:00:56.000 -> 00:00:58.000] Le premier thème, c'est un peu
+[00:00:58.000 -> 00:01:00.000] tout ce qui est autour d'OpenClo,
+[00:01:00.000 -> 00:01:02.000] OpenAI, les swarm d'agents, etc.
+[00:01:02.000 -> 00:01:04.000] Du coup, la première news,
+[00:01:04.000 -> 00:01:06.000] c'est tout ce qui est autour d'OpenClo
+[00:01:06.000 -> 00:01:08.000] et les news qu'il y a eu autour de ça.
+[00:01:08.000 -> 00:01:10.000] Je pense que le truc fun au tout début,
+[00:01:10.000 -> 00:01:12.000] c'est le AI Impact Summit en Inde,
+[00:01:12.000 -> 00:01:14.000] où il y a le président de l'Inde qui a pris les mains
+[00:01:14.000 -> 00:01:16.000] de tout le monde et qui a voulu leur lever la main.
+[00:01:16.000 -> 00:01:18.000] Et Sam Altman et Daru Amodei qui sont anthropiques
+[00:01:18.000 -> 00:01:20.000] et OpenAI et SEO
+[00:01:20.000 -> 00:01:22.000] qui ne se sont pas pris la main.
+[00:01:22.000 -> 00:01:24.000] Il y a ce mème assez drôle là.
+[00:01:24.000 -> 00:01:26.000] C'est un peu ridicule.
+[00:01:26.000 -> 00:01:28.000] Je ne sais pas ce que vous en pensez,
+[00:01:28.000 -> 00:01:30.000] mais ça montre un peu la mentalité des gars.
+[00:01:30.000 -> 00:01:32.000] Je pense qu'ils ne s'aiment pas trop.
+[00:01:32.000 -> 00:01:34.000] Après, l'histoire, c'est que Daru Amodei,
+[00:01:34.000 -> 00:01:36.000] il était dans les premiers rechercheurs chez OpenAI
+[00:01:36.000 -> 00:01:38.000] et il a claqué la porte d'OpenAI
+[00:01:38.000 -> 00:01:40.000] pour créer Anthropique.
+[00:01:40.000 -> 00:01:42.000] Et aujourd'hui, ils sont en concurrence.
+[00:01:42.000 -> 00:01:44.000] De là, je ne sais pas.
+[00:01:44.000 -> 00:01:46.000] Ça montre un peu aussi les mentalités d'Inde.
+[00:01:46.000 -> 00:01:48.000] C'était fun pour démarrer.
+[00:01:48.000 -> 00:01:50.000] Je pense que la suite,
+[00:01:50.000 -> 00:01:52.000] c'est Peter Steinberger
+[00:01:52.000 -> 00:01:54.000] qui a rejoint cette semaine OpenAI
+[00:01:54.000 -> 00:01:56.000] qui s'est fait racheter par OpenAI
+[00:01:56.000 -> 00:01:58.000] et OpenClose s'est fait racheter
+[00:01:58.000 -> 00:02:00.000] ou s'est hébergé dans une fondation
+[00:02:00.000 -> 00:02:02.000] chez OpenAI.
+[00:02:02.000 -> 00:02:04.000] C'est de la couille ailleurs.
+[00:02:04.000 -> 00:02:06.000] Ils l'ont recruté finalement.
+[00:02:06.000 -> 00:02:08.000] Ils ont recruté la hype
+[00:02:08.000 -> 00:02:10.000] et ils ont mis OpenClose
+[00:02:10.000 -> 00:02:12.000] sous une fondation.
+[00:02:12.000 -> 00:02:14.000] Je pense qu'ils essaient de rattraper le retard
+[00:02:14.000 -> 00:02:16.000] qu'ils ont sur Anthropique.
+[00:02:16.000 -> 00:02:18.000] Ils ont racheté la marque.
+[00:02:18.000 -> 00:02:20.000] C'est un gars qui a une vraie vision du produit.
+[00:02:20.000 -> 00:02:22.000] Même si c'est
+[00:02:22.000 -> 00:02:24.000] en termes de sécurité,
+[00:02:24.000 -> 00:02:26.000] ce n'est pas ouf.
+[00:02:26.000 -> 00:02:28.000] Je voyais ce matin sur Acure News
+[00:02:28.000 -> 00:02:30.000] que quelqu'un avait fait une recherche.
+[00:02:30.000 -> 00:02:32.000] Le plugin numéro 1 téléchargé sur OpenClose,
+[00:02:32.000 -> 00:02:34.000] c'est un malware.
+[00:02:34.000 -> 00:02:36.000] À un moment donné, il faut installer un truc
+[00:02:36.000 -> 00:02:38.000] et ça doit compter sur une URL.
+[00:02:38.000 -> 00:02:40.000] Le truc grave, tout est secret.
+[00:02:40.000 -> 00:02:42.000] Mais ça les envoie où ?
+[00:02:42.000 -> 00:02:44.000] Je ne sais pas.
+[00:02:44.000 -> 00:02:46.000] J'ai juste vu la news.
+[00:02:46.000 -> 00:02:48.000] Je trouvais que c'était assez marrant.
+[00:02:48.000 -> 00:02:50.000] Le gars, il est parti de quoi ?
+[00:02:50.000 -> 00:02:52.000] Il avait déjà une audience ou pas ?
+[00:02:52.000 -> 00:02:54.000] Il était déjà connu ?
+[00:02:54.000 -> 00:02:56.000] Le fait qu'il ait lancé le produit et que ça ait pris
+[00:02:56.000 -> 00:02:58.000] de manière virale, qu'est-ce qui a fait que ça a autant marché ?
+[00:02:58.000 -> 00:03:00.000] Je pense qu'il y a plein d'histoires.
+[00:03:00.000 -> 00:03:02.000] Le truc, c'est que le gars
+[00:03:02.000 -> 00:03:04.000] est solo founder depuis longtemps.
+[00:03:04.000 -> 00:03:06.000] C'est lui.
+[00:03:06.000 -> 00:03:08.000] C'est quand tu vas sur sa
+[00:03:08.000 -> 00:03:10.000] page Github.
+[00:03:10.000 -> 00:03:12.000] Tout le monde dit que ça se fait pendant un jour.
+[00:03:12.000 -> 00:03:14.000] Le mec a fait plein de produits.
+[00:03:14.000 -> 00:03:16.000] C'est un de ces produits-là qui a marché.
+[00:03:16.000 -> 00:03:18.000] Il n'empêche qu'il avait développé ça,
+[00:03:18.000 -> 00:03:20.000] qui est PDF SDK,
+[00:03:20.000 -> 00:03:22.000] qui est un truc qui permet de build des PDF.
+[00:03:22.000 -> 00:03:24.000] C'est sa première startup et ça, il l'a vendu.
+[00:03:24.000 -> 00:03:26.000] Il avait fait un exit sur ce truc-là.
+[00:03:26.000 -> 00:03:28.000] Du coup, il était parti un peu en retraite.
+[00:03:28.000 -> 00:03:30.000] Ensuite, quand il a dit, je suis sorti de ma retraite
+[00:03:30.000 -> 00:03:32.000] et j'ai build plein d'outils.
+[00:03:32.000 -> 00:03:34.000] OpenFlow est celui qui a pris.
+[00:03:34.000 -> 00:03:36.000] Mais il avait déjà une audience, le gars.
+[00:03:36.000 -> 00:03:38.000] C'est-à-dire qu'il n'est pas parti zéro.
+[00:03:38.000 -> 00:03:40.000] Je pense qu'il avait déjà un peu une audience.
+[00:03:40.000 -> 00:03:42.000] Les facteurs qui ont fait que ça ait pris, selon vous ?
+[00:03:42.000 -> 00:03:44.000] Je pense que ça aurait été un problème d'un angle mort.
+[00:03:44.000 -> 00:03:46.000] J'allais dire, je pense qu'il y a,
+[00:03:46.000 -> 00:03:48.000] de mon point de vue,
+[00:03:48.000 -> 00:03:50.000] c'est un peu ce qu'on a déjà dit dans les épisodes précédents.
+[00:03:50.000 -> 00:03:52.000] Je pense qu'il y a le truc qui est le personal assistant.
+[00:03:52.000 -> 00:03:54.000] Je pense qu'il y a de ça,
+[00:03:54.000 -> 00:03:56.000] qu'il y a un truc qu'on ne voyait pas
+[00:03:56.000 -> 00:03:58.000] chez Anthropique,
+[00:03:58.000 -> 00:04:00.000] chez OpenAI.
+[00:04:00.000 -> 00:04:02.000] Je pense que Meta, ils ont essayé de faire ça,
+[00:04:02.000 -> 00:04:04.000] mais ils ont été très nuls.
+[00:04:04.000 -> 00:04:06.000] Sur leur bot dans WhatsApp,
+[00:04:06.000 -> 00:04:08.000] ils n'auraient plus build OpenClose.
+[00:04:08.000 -> 00:04:10.000] Depuis WhatsApp, ils auraient pu réussir à le faire derrière.
+[00:04:10.000 -> 00:04:12.000] Je pense que c'est ce qui a pris aussi
+[00:04:12.000 -> 00:04:14.000] OpenClose, c'est que c'est ouvert.
+[00:04:14.000 -> 00:04:16.000] Tu as un truc geek
+[00:04:16.000 -> 00:04:18.000] où tu peux le build toi-même.
+[00:04:18.000 -> 00:04:20.000] Tu vois le truc qui se build automatiquement.
+[00:04:20.000 -> 00:04:22.000] C'est autour des agences, c'est dans la hype.
+[00:04:22.000 -> 00:04:24.000] Et le fait que tu puisses y interagir depuis tes messageries perso.
+[00:04:24.000 -> 00:04:26.000] J'ai l'impression que c'est ça, non ?
+[00:04:26.000 -> 00:04:28.000] Surtout.
+[00:04:28.000 -> 00:04:30.000] D'avoir ton cloud code dans Telegram,
+[00:04:30.000 -> 00:04:32.000] qui est ultra bien.
+[00:04:32.000 -> 00:04:34.000] Oui, je pense que c'est l'idée.
+[00:04:34.000 -> 00:04:36.000] Pour moi, il y avait aussi une histoire d'image.
+[00:04:36.000 -> 00:04:38.000] Je pense que tout le monde le sentait, ce truc-là.
+[00:04:38.000 -> 00:04:40.000] Mais étant donné que c'est quand même un truc,
+[00:04:40.000 -> 00:04:42.000] en termes de sécurité, je trouve que ça reste
+[00:04:42.000 -> 00:04:44.000] un problème qui n'est pas encore totalement réglé.
+[00:04:44.000 -> 00:04:46.000] Et je pense qu'en fait,
+[00:04:46.000 -> 00:04:48.000] c'est bien que ce soit un mec, un random
+[00:04:48.000 -> 00:04:50.000] qui s'en occupe.
+[00:04:50.000 -> 00:04:52.000] Je ne sais pas si c'est la bonne vision.
+[00:04:52.000 -> 00:04:54.000] Parce que même, je voyais Cloudflare à balancer
+[00:04:54.000 -> 00:04:56.000] des templates, par exemple, pour pouvoir déployer
+[00:04:56.000 -> 00:04:58.000] ça dans des lambda Cloudflare.
+[00:04:58.000 -> 00:05:00.000] Ce truc-là, c'est ouf.
+[00:05:00.000 -> 00:05:02.000] Il est passé rapidement
+[00:05:02.000 -> 00:05:04.000] de 7000
+[00:05:04.000 -> 00:05:06.000] à 37000
+[00:05:06.000 -> 00:05:08.000] en deux jours.
+[00:05:08.000 -> 00:05:10.000] Et de 40 000 à 200 000
+[00:05:10.000 -> 00:05:12.000] en un mois.
+[00:05:12.000 -> 00:05:14.000] La course impléchée.
+[00:05:18.000 -> 00:05:20.000] Même sur l'histoire de Cloudflare,
+[00:05:20.000 -> 00:05:22.000] personne n'assume le fait que ça soit
+[00:05:22.000 -> 00:05:24.000] quand même un truc qui soit
+[00:05:24.000 -> 00:05:26.000] potentiellement non-sécure, etc.
+[00:05:26.000 -> 00:05:28.000] Ça reste, je pense, le problème numéro un réglé.
+[00:05:28.000 -> 00:05:30.000] C'est ça le truc de Cloudflare ?
+[00:05:30.000 -> 00:05:32.000] Non, je vais termer un autre sujet.
+[00:05:32.000 -> 00:05:34.000] Ils ont déployé
+[00:05:34.000 -> 00:05:36.000] un template OpenCloud.
+[00:05:36.000 -> 00:05:38.000] Multworker.
+[00:05:38.000 -> 00:05:40.000] Mais à la fin, c'est marqué
+[00:05:40.000 -> 00:05:42.000] attention, c'est pas sécure, c'est un truc de recherche.
+[00:05:42.000 -> 00:05:44.000] Faites ça, vous risquez péril.
+[00:05:44.000 -> 00:05:46.000] Ceinture bretelle.
+[00:05:46.000 -> 00:05:48.000] C'est assez intéressant.
+[00:05:48.000 -> 00:05:50.000] Dans le contexte de l'entreprise,
+[00:05:50.000 -> 00:05:52.000] je le vois, il y a tout le monde qui est quand même un peu flippé
+[00:05:52.000 -> 00:05:54.000] de ça peut faire n'importe quoi, ça peut se connecter à la donnée,
+[00:05:54.000 -> 00:05:56.000] ça peut leaker,
+[00:05:56.000 -> 00:05:58.000] whatever, on va dire dans le contexte de l'entreprise.
+[00:05:58.000 -> 00:06:00.000] Mais là, sur OpenCloud, c'est le personnel et l'agent.
+[00:06:00.000 -> 00:06:02.000] Et tu acceptes de mettre
+[00:06:02.000 -> 00:06:04.000] un tout petit peu plus de limites, même si tu dis
+[00:06:04.000 -> 00:06:06.000] je vais retourner dans le sandbox, je vais se retourner sur une VM,
+[00:06:06.000 -> 00:06:08.000] je vais faire ci, je vais faire ça.
+[00:06:08.000 -> 00:06:10.000] À un moment, tu veux le connecter à tes systèmes.
+[00:06:10.000 -> 00:06:12.000] Parce que sinon, ça n'a pas d'intérêt.
+[00:06:12.000 -> 00:06:14.000] T'as envie de le connecter à ton email, t'as envie de le connecter
+[00:06:14.000 -> 00:06:16.000] à ton GitHub, t'as envie de le connecter à un système perso
+[00:06:16.000 -> 00:06:18.000] parce que sinon, il n'a aucun intérêt comme personnel agent.
+[00:06:18.000 -> 00:06:20.000] Donc au bout d'un moment, tu baisses juste ta garde
+[00:06:20.000 -> 00:06:22.000] et t'acceptes le truc.
+[00:06:22.000 -> 00:06:24.000] Comme CloudCode, vous travaillez encore
+[00:06:24.000 -> 00:06:26.000] sur le modulo de CloudCode et Codex ?
+[00:06:26.000 -> 00:06:28.000] Moi, j'aime bien le plan,
+[00:06:28.000 -> 00:06:30.000] je travaille beaucoup avec... Non, je ne suis pas en modulo.
+[00:06:30.000 -> 00:06:32.000] Et du coup,
+[00:06:32.000 -> 00:06:34.000] ça me fait rebondir avec ça.
+[00:06:34.000 -> 00:06:36.000] Vas-y Julien, c'est un truc.
+[00:06:36.000 -> 00:06:38.000] Moi, je les ai enlevés, mais sur une VM. Donc j'ai isolé.
+[00:06:38.000 -> 00:06:40.000] C'est le seul compromis que j'ai trouvé.
+[00:06:40.000 -> 00:06:42.000] Il y a Anthropy qui a sorti cet article hier
+[00:06:42.000 -> 00:06:44.000] qui est l'autonomie des agents en pratique
+[00:06:44.000 -> 00:06:46.000] et il y a un graphe qui est intéressant
+[00:06:46.000 -> 00:06:48.000] qui est le CloudCode auto-approve
+[00:06:48.000 -> 00:06:50.000] rate by experience.
+[00:06:50.000 -> 00:06:52.000] Il montre, en fonction du nombre de sessions que tu as fait précédemment,
+[00:06:52.000 -> 00:06:54.000] quel est ton auto-approve
+[00:06:54.000 -> 00:06:56.000] que tu acceptes.
+[00:06:56.000 -> 00:06:58.000] Ce qu'il montre, c'est que plus tu as fait beaucoup de sessions,
+[00:06:58.000 -> 00:07:00.000] plus tu vas avoir tendance à laisser CloudCode auto-approve.
+[00:07:00.000 -> 00:07:02.000] Ce qui a du sens.
+[00:07:02.000 -> 00:07:04.000] C'est la même chose qui se construit.
+[00:07:04.000 -> 00:07:06.000] Ce qu'il montre aussi, c'est que plus tu as fait des sessions,
+[00:07:06.000 -> 00:07:08.000] moins tu as un tournant en CloudCode.
+[00:07:08.000 -> 00:07:10.000] C'est intéressant.
+[00:07:10.000 -> 00:07:12.000] Ah si, il y a aussi ça qui était intéressant.
+[00:07:12.000 -> 00:07:14.000] C'est genre, combien de temps
+[00:07:14.000 -> 00:07:16.000] tourne CloudCode avant que tu l'arrêtes
+[00:07:16.000 -> 00:07:18.000] et plus le temps passe,
+[00:07:18.000 -> 00:07:20.000] plus tu vois que ça dure longtemps.
+[00:07:20.000 -> 00:07:22.000] Et plus les modèles arrivent, plus le temps...
+[00:07:22.000 -> 00:07:24.000] On a passé de recul sur Opus 4.6,
+[00:07:24.000 -> 00:07:26.000] mais quand on est passé de Sonnet 4.5
+[00:07:26.000 -> 00:07:28.000] à Opus 4.5, on voit qu'il y a quand même
+[00:07:28.000 -> 00:07:30.000] une augmentation significative
+[00:07:30.000 -> 00:07:32.000] du temps des tâches.
+[00:07:32.000 -> 00:07:34.000] C'est marrant, je m'attendais à avoir
+[00:07:34.000 -> 00:07:36.000] un truc un peu plus linéaire.
+[00:07:36.000 -> 00:07:38.000] C'est bizarre que ça varie autant.
+[00:07:38.000 -> 00:07:40.000] À l'échelle de l'outil,
+[00:07:40.000 -> 00:07:42.000] c'est bizarre qu'il y ait autant de variations.
+[00:07:42.000 -> 00:07:44.000] Je pense que c'est impacté par leur release en interne,
+[00:07:44.000 -> 00:07:46.000] les patches qu'ils font.
+[00:07:46.000 -> 00:07:48.000] Ça me semble bizarre que ça varie autant.
+[00:07:48.000 -> 00:07:50.000] C'est assez linéaire, non ?
+[00:07:50.000 -> 00:07:52.000] Entre le 1er janvier
+[00:07:52.000 -> 00:07:54.000] et le 1er février,
+[00:07:54.000 -> 00:07:56.000] tu perds 20%.
+[00:07:56.000 -> 00:07:58.000] Ah, ici, tu veux dire ?
+[00:07:58.000 -> 00:08:00.000] Oui, même après.
+[00:08:00.000 -> 00:08:02.000] Oui, juste à la release du modèle.
+[00:08:02.000 -> 00:08:04.000] Là, c'est peut-être des features
+[00:08:04.000 -> 00:08:06.000] où ils ont fait des trucs
+[00:08:06.000 -> 00:08:08.000] où ils ont pété un truc
+[00:08:08.000 -> 00:08:10.000] et les gens ont moins de trust.
+[00:08:10.000 -> 00:08:12.000] Ou juste un effet release du modèle.
+[00:08:12.000 -> 00:08:14.000] À chaque fois qu'ils réalisent un nouveau modèle,
+[00:08:14.000 -> 00:08:16.000] les gens sont plus contents.
+[00:08:16.000 -> 00:08:18.000] Je pense que ces graphes montrent
+[00:08:18.000 -> 00:08:20.000] pourquoi ils ne veulent pas
+[00:08:20.000 -> 00:08:22.000] que les gens utilisent Cloud Code
+[00:08:22.000 -> 00:08:24.000] hors de Cloud Code.
+[00:08:24.000 -> 00:08:26.000] Après, pour moi,
+[00:08:26.000 -> 00:08:28.000] c'est aussi un enjeu de rentabilité.
+[00:08:28.000 -> 00:08:30.000] On est un peu comme Apple.
+[00:08:30.000 -> 00:08:32.000] Quand tu ne vas pas séparer le hardware du software,
+[00:08:32.000 -> 00:08:34.000] ils sont dans cette même logique-là.
+[00:08:34.000 -> 00:08:36.000] Aujourd'hui, je crois que ça fait quoi ?
+[00:08:36.000 -> 00:08:38.000] Ça fait 1 milliard
+[00:08:38.000 -> 00:08:40.000] sur les revues d'Anthropy.
+[00:08:40.000 -> 00:08:42.000] C'est 2,5 milliards, je pense, les subscriptions.
+[00:08:42.000 -> 00:08:44.000] J'ai eu aussi la 4%
+[00:08:44.000 -> 00:08:46.000] des commits sur GitHub en public
+[00:08:46.000 -> 00:08:48.000] faits par Cloud Code. Je ne sais pas ce que ça donne
+[00:08:48.000 -> 00:08:50.000] si tu mettais le privé.
+[00:08:50.000 -> 00:08:52.000] Et ils prévoient 20% fin d'année.
+[00:08:52.000 -> 00:08:54.000] C'est un bon produit.
+[00:08:54.000 -> 00:08:56.000] Ils font un truc aussi jeune.
+[00:08:56.000 -> 00:08:58.000] Hier, c'était les 1 an de Cloud Code.
+[00:08:58.000 -> 00:09:00.000] C'est ouf de se dire qu'en 1 an,
+[00:09:00.000 -> 00:09:02.000] ils ont reached 2,5 milliards.
+[00:09:04.000 -> 00:09:06.000] J'ai une question. Les équipes, en général,
+[00:09:06.000 -> 00:09:08.000] comment gèrent les abonnements Cloud Code ?
+[00:09:08.000 -> 00:09:10.000] C'est un par personne ? C'est niveau d'entreprise ?
+[00:09:10.000 -> 00:09:12.000] C'est des bundles ? Ou c'est des accounts qui sont partagés ?
+[00:09:12.000 -> 00:09:14.000] Comment ça fonctionne ?
+[00:09:14.000 -> 00:09:16.000] Tu as une offre entreprise.
+[00:09:16.000 -> 00:09:18.000] Après, tu as la partie Enterprise
+[00:09:18.000 -> 00:09:20.000] qui n'est pas Cloud Code.
+[00:09:20.000 -> 00:09:22.000] Après, tu as la partie Cloud.
+[00:09:22.000 -> 00:09:24.000] Et dedans, je crois,
+[00:09:24.000 -> 00:09:26.000] via la marketplace AWS,
+[00:09:26.000 -> 00:09:28.000] tu prends des bundles.
+[00:09:28.000 -> 00:09:30.000] C'est des bundles de 5 places.
+[00:09:30.000 -> 00:09:32.000] Après, tu peux les prendre de manière itérative.
+[00:09:32.000 -> 00:09:34.000] Tu peux en ajouter autant que tu veux.
+[00:09:34.000 -> 00:09:36.000] Et Cloud Code, il y a des bundles dedans
+[00:09:36.000 -> 00:09:38.000] avec des limites en termes de tokens, etc.
+[00:09:38.000 -> 00:09:40.000] La même logique que ce que tu as quand tu le prends tout seul.
+[00:09:40.000 -> 00:09:42.000] Et après, sur la partie Enterprise,
+[00:09:42.000 -> 00:09:44.000] tu as des features au niveau Enterprise.
+[00:09:44.000 -> 00:09:46.000] Tu peux rajouter des guardrails.
+[00:09:46.000 -> 00:09:48.000] Tu peux créer des GPTs partagés, etc.
+[00:09:48.000 -> 00:09:50.000] Je pense que tu as aussi le truc
+[00:09:50.000 -> 00:09:52.000] en Enterprise, tu peux, je crois,
+[00:09:52.000 -> 00:09:54.000] créer des environnements, forcer les gens
+[00:09:54.000 -> 00:09:56.000] qui ne peuvent pas le lancer en local
+[00:09:56.000 -> 00:09:58.000] que ça tourne en remote,
+[00:09:58.000 -> 00:10:00.000] etc.
+[00:10:00.000 -> 00:10:03.280] Est-ce que vous voyez des gens non tech qui commencent à récupérer des abonnements
+[00:10:03.280 -> 00:10:05.960] comme ça, à travers leurs entreprises ?
+[00:10:05.960 -> 00:10:06.960] Qu'est-ce que tu veux dire ?
+[00:10:06.960 -> 00:10:11.160] Des gens qui ne savent pas coder, qui commencent à aller dans le terminal, qui ouvrent juste
+[00:10:11.160 -> 00:10:13.200] Cloud Code, puis qui commencent à faire des choses comme ça ?
+[00:10:13.200 -> 00:10:19.880] Moi, de mon côté, non, mais je pense qu'à part si tu parles du principe de co-work,
+[00:10:19.880 -> 00:10:20.880] ce n'est pas Cloud Code.
+[00:10:20.880 -> 00:10:23.960] Moi, ce que je vois, c'est par exemple Claire, elle fait pas mal de trucs, mais elle l'utilise
+[00:10:23.960 -> 00:10:24.960] via cloud-desktop-co-work.
+[00:10:24.960 -> 00:10:25.960] Oui, voilà, c'est sûr.
+[00:10:25.960 -> 00:10:26.960] Donc, tu es avec lui derrière.
+[00:10:26.960 -> 00:10:31.400] C'est vraiment de l'écode, en fait, dans Cloud Code.
+[00:10:31.400 -> 00:10:38.600] Je pense que vous avez testé, en ce moment, ce qui fait le buzz, c'est l'app Codex, 5.3
+[00:10:38.600 -> 00:10:39.600] et Codex.
+[00:10:39.600 -> 00:10:43.520] Et honnêtement, ils ont fait une app qui est vraiment clean, qui marche plutôt bien.
+[00:10:43.520 -> 00:10:46.640] Le modèle, après, c'est question de personnalité, qu'est-ce que tu préfères sur les modèles
+[00:10:46.640 -> 00:10:47.640] et tout.
+[00:10:47.640 -> 00:10:48.640] Et ça, c'est assez subjectif.
+[00:10:48.640 -> 00:10:49.640] Mais je trouve qu'ils ont fait une assez bonne app.
+[00:10:49.640 -> 00:10:54.960] Et c'est assez intéressant, leur vision qui est post-IDE, c'est genre, ils ont recréé
+[00:10:54.960 -> 00:10:58.720] une app pour coder dans laquelle tu peux faire un peu des trucs que tu peux faire dans l'IDE,
+[00:10:58.720 -> 00:10:59.720] mais c'est pas un full IDE.
+[00:10:59.720 -> 00:11:04.240] J'aurais bien aimé aussi, ouais, l'interface, elle est assez intéressante, en tout cas.
+[00:11:04.240 -> 00:11:08.440] C'est assez nouveau, en tout cas, parce que c'est un truc qui ressemble à rien, à rien
+[00:11:08.440 -> 00:11:09.440] de code.
+[00:11:09.440 -> 00:11:13.680] Je sais pas si tu l'as vu, toi, Julien, parce que j'ai vu que tu t'intéressais aux interfaces.
+[00:11:13.680 -> 00:11:15.880] J'ai pas eu le temps de finir ta dernière vidéo.
+[00:11:15.880 -> 00:11:16.880] Ouais, exactement.
+[00:11:16.880 -> 00:11:19.880] En gros, je m'intéressais aux interfaces dans le sens où...
+[00:11:19.880 -> 00:11:23.880] Mais je pense que c'est une erreur, d'ailleurs, parce que les interfaces, elles vont mourir.
+[00:11:23.880 -> 00:11:24.880] Moi, je pense qu'elles vont mourir, ouais.
+[00:11:24.880 -> 00:11:28.880] Moi, par exemple, j'ai fait une full IDE, je sais pas, depuis peut-être deux ou trois
+[00:11:28.880 -> 00:11:31.880] semaines, je me suis rendu compte que finalement, c'est une histoire, comme tu disais, une
+[00:11:31.880 -> 00:11:32.880] histoire de trust.
+[00:11:32.880 -> 00:11:35.880] Est-ce que j'ai vraiment besoin de regarder mes marqueries tout le temps ? Pas nécessairement,
+[00:11:35.880 -> 00:11:36.880] quoi.
+[00:11:36.880 -> 00:11:40.880] En fait, j'avais le postulat que tous les gens allaient commencer à être avec des
+[00:11:40.880 -> 00:11:43.880] agents, et donc, du coup, ils avaient les besoins quand même de vérifier l'output de l'agent.
+[00:11:43.880 -> 00:11:44.880] Ouais.
+[00:11:44.880 -> 00:11:48.880] Et en fait, par exemple, je sais pas, t'as un docteur, il va devoir visualiser, de sa
+[00:11:48.880 -> 00:11:49.880] manière, l'output de l'agent.
+[00:11:50.880 -> 00:11:54.880] Et du coup, l'hypothèse, c'était que t'as besoin d'un IDE pour chaque workflow.
+[00:11:54.880 -> 00:11:59.880] Mais en fait, j'ai réalisé que comme moi, je regarde de moins en moins le code qui est
+[00:11:59.880 -> 00:12:03.880] généré par l'outil, il n'y a pas de raison qu'un avocat, un médecin, il regarde de moins
+[00:12:03.880 -> 00:12:04.880] en moins l'output qui est sorti.
+[00:12:04.880 -> 00:12:05.880] Oui, je suis d'accord.
+[00:12:05.880 -> 00:12:09.880] Voilà, d'où, je pense que l'interface, les interfaces vont mourir.
+[00:12:09.880 -> 00:12:11.880] C'est un peu vertigineux, d'ailleurs.
+[00:12:11.880 -> 00:12:12.880] Ouais.
+[00:12:12.880 -> 00:12:13.880] Pas que du software.
+[00:12:13.880 -> 00:12:16.880] Qu'est-ce que tu peux vendre, du coup ? Qu'est-ce que tu vends ? Qu'est-ce qui est vendable ?
+[00:12:17.880 -> 00:12:19.880] Le code, il est gratuit, quoi.
+[00:12:19.880 -> 00:12:21.880] C'est ce qui m'obsède aussi pour ce moment.
+[00:12:21.880 -> 00:12:22.880] Pas que le code, je pense.
+[00:12:22.880 -> 00:12:27.880] Même tout le scaffolding, tout ce qui est workflow, même tout ça.
+[00:12:27.880 -> 00:12:31.880] Je trouve que maintenant, c'est même intéressant des fois d'arrêter même de guider par étape.
+[00:12:31.880 -> 00:12:35.880] Quand tu fais, par exemple, tu demandes à un agent de travailler, tu lui donnes le but,
+[00:12:35.880 -> 00:12:37.880] tu lui donnes pas la manière de le faire.
+[00:12:37.880 -> 00:12:39.880] Et en général, la plupart du temps, c'est quand même plus difficile.
+[00:12:39.880 -> 00:12:41.880] Donc même ça, ça commence à devenir ingéré.
+[00:12:41.880 -> 00:12:45.880] Enfin, tu vois, ça devient avalé également par l'agent, par le modèle.
+[00:12:45.880 -> 00:12:46.880] Ouais.
+[00:12:46.880 -> 00:12:48.880] Donc si tu fais une régression, tu tires la courbe.
+[00:12:48.880 -> 00:12:51.880] Dans six mois, dans un an, qu'est-ce qui se restera dans la partie amortisation ?
+[00:12:51.880 -> 00:12:52.880] Ouais, c'est une bonne question.
+[00:12:52.880 -> 00:12:54.880] Il restera pas grand-chose, quoi, je pense.
+[00:12:54.880 -> 00:12:57.880] Et du coup, ça, c'est assez vertigineux pour le coup.
+[00:12:57.880 -> 00:13:01.880] Je pense que sur l'interface, il y a un truc que je disais à un moment, c'était...
+[00:13:01.880 -> 00:13:03.880] Attends, je vais retrouver ce que je voulais dire.
+[00:13:03.880 -> 00:13:07.880] Ouais, sur les interfaces, mon point de vue, c'est qu'il y aura toujours des interfaces qui vont exister.
+[00:13:07.880 -> 00:13:12.880] Parce qu'en fait, l'avantage de l'interface pour les users finaux, c'est que tu donnes une expérience.
+[00:13:12.880 -> 00:13:14.880] Et je pense qu'il y a des trucs où t'as pas envie d'avoir une expérience.
+[00:13:14.880 -> 00:13:16.880] Genre je veux réserver un ticket de train.
+[00:13:16.880 -> 00:13:21.880] Bon, l'expérience, ça peut être, je demande un chatbot et ça le fait très bien.
+[00:13:21.880 -> 00:13:25.880] Mais je veux acheter un truc de décoration pour ma maison, je veux acheter des habits.
+[00:13:25.880 -> 00:13:27.880] Et il y a deux types d'expérience que d'achat, je pense.
+[00:13:27.880 -> 00:13:30.880] Il y a l'achat, je veux un tee-shirt blanc et puis très bien, let's go.
+[00:13:30.880 -> 00:13:32.880] Et là, je veux être dans une marque.
+[00:13:32.880 -> 00:13:35.880] Je veux avoir l'expérience d'achat de la marque et ce genre de trucs.
+[00:13:35.880 -> 00:13:38.880] Et je pense que là-dessus, t'auras toujours besoin d'une interface, t'auras toujours besoin d'une boutique,
+[00:13:38.880 -> 00:13:42.880] t'auras toujours besoin d'avoir un truc qui te crée une connexion et tout le marketing qui est autour.
+[00:13:42.880 -> 00:13:44.880] Donc je pense que ça, ça dépend des personnalités.
+[00:13:44.880 -> 00:13:47.880] Mais pour ça, je pense qu'il y aura toujours besoin d'avoir des interfaces finales.
+[00:13:47.880 -> 00:13:50.880] Mais il y a le but de beaucoup de marques, c'est de la customisation, non ?
+[00:13:50.880 -> 00:13:53.880] Et du coup, on n'arrive pas dans un monde où t'as l'ultra-customisation.
+[00:13:53.880 -> 00:13:57.880] Si t'as ton agent qui te crée ta propre interface juste pour toi.
+[00:13:57.880 -> 00:14:00.880] Et du coup, cette interface, vu qu'elle est créée par ton agent qui te connaît déjà,
+[00:14:00.880 -> 00:14:05.880] avec des détails qui te vont bien, est-ce que ça vaut encore le coup de la délivrer dans ton produit ?
+[00:14:05.880 -> 00:14:07.880] Peut-être, ouais.
+[00:14:07.880 -> 00:14:10.880] J'ai pas vu d'ailleurs ce que ça donnait les MCP Apps.
+[00:14:10.880 -> 00:14:12.880] Je sais pas si vous avez vu se passer ce truc-là.
+[00:14:12.880 -> 00:14:16.880] J'ai eu pas mal de suivi de l'extérieur parce que j'avais déjà rencontré les mecs qui font Alpik,
+[00:14:16.880 -> 00:14:18.880] qui sont ceux qui ont beaucoup parlé.
+[00:14:18.880 -> 00:14:21.880] C'est une boîte française qui fait des MCP Apps.
+[00:14:21.880 -> 00:14:22.880] Donc j'ai un peu suivi.
+[00:14:22.880 -> 00:14:26.880] En fait, j'ai l'impression que c'est pour accéder au web avant d'utiliser un navigateur web.
+[00:14:26.880 -> 00:14:30.880] Et les MCP Apps, c'est juste une manière de revrapper le navigateur web dans un chat
+[00:14:30.880 -> 00:14:32.880] pour redonner l'expérience navigateur web, mais via le chat.
+[00:14:33.880 -> 00:14:35.880] Clairement, même beaucoup de personnes...
+[00:14:35.880 -> 00:14:39.880] Par exemple, il y a certains MCP que j'ai arrêté d'utiliser,
+[00:14:39.880 -> 00:14:45.880] et je me suis juste fait des agents, des markdowns avec des co-APIs.
+[00:14:45.880 -> 00:14:48.880] Ça fonctionne de la même manière.
+[00:14:48.880 -> 00:14:52.880] Je suis même pas sûr que ce soit un truc qui va perdurer dans le temps, mais pourquoi pas.
+[00:14:52.880 -> 00:14:54.880] D'ailleurs, sur les MCP, il y a ça.
+[00:14:54.880 -> 00:14:56.880] Je sais pas si vous avez vu.
+[00:14:56.880 -> 00:14:59.880] Google a annoncé Web MCP.
+[00:14:59.880 -> 00:15:03.880] Donc l'idée, c'est de pouvoir appeler des MCP depuis ton browser.
+[00:15:03.880 -> 00:15:05.880] Et il y a tout le protocole.
+[00:15:05.880 -> 00:15:09.880] Et il y a une autre boîte qui a drafté le truc à côté.
+[00:15:09.880 -> 00:15:11.880] Je sais pas trop ce que ça va donner.
+[00:15:11.880 -> 00:15:12.880] Parce qu'il y a quand même des sujets...
+[00:15:12.880 -> 00:15:14.880] Il y a toujours eu des sujets de sécurité par rapport à l'HTML
+[00:15:14.880 -> 00:15:17.880] et l'accès à ton poste pour pouvoir faire des choses.
+[00:15:17.880 -> 00:15:18.880] Donc ça, ça casse un peu les choses.
+[00:15:18.880 -> 00:15:23.880] Ça casse un peu toute la barrière qu'on mettait entre le browser et le poste des gens.
+[00:15:23.880 -> 00:15:24.880] Et c'est quoi, du coup, les usages ?
+[00:15:24.880 -> 00:15:28.880] J'ai vu passer ce truc-là, et pas mal de personnes disaient que c'était un truc de ouf.
+[00:15:28.880 -> 00:15:29.880] Mais je n'ai pas creusé, en fait.
+[00:15:29.880 -> 00:15:32.880] Qu'est-ce que ça permettrait comme use case ?
+[00:15:32.880 -> 00:15:35.880] Tu parles plutôt d'un aspect sécurité ?
+[00:15:35.880 -> 00:15:39.880] Là, ils disent que tu peux l'utiliser pour customer support, e-commerce, travel.
+[00:15:39.880 -> 00:15:43.880] Un user pourrait plus facilement récupérer quel flight il veut.
+[00:15:43.880 -> 00:15:45.880] Mais je ne sais pas où est-ce que tu...
+[00:15:45.880 -> 00:15:49.880] Donc ça permet de contrôler finalement ton web browser comme un MCP.
+[00:15:49.880 -> 00:15:51.880] Faire des actions à partir de ton argent.
+[00:15:51.880 -> 00:15:53.880] De manière plus simple, peut-être ça.
+[00:15:53.880 -> 00:15:56.880] En fait, c'est comme si tu enlevais ton front et tu parlais directement avec le back du...
+[00:15:56.880 -> 00:15:57.880] Exactement, je pense que c'est l'idée.
+[00:15:57.880 -> 00:16:00.880] Du coup, ça kill aussi tous les trucs de scrapping.
+[00:16:00.880 -> 00:16:01.880] Oui, c'est ça.
+[00:16:01.880 -> 00:16:03.880] Oui, exactement.
+[00:16:03.880 -> 00:16:07.880] Du coup, on peut basculer sur l'histoire du markdown Cloudflare.
+[00:16:07.880 -> 00:16:09.880] Ça, c'est assez intéressant.
+[00:16:09.880 -> 00:16:12.880] Bon, là, il y avait l'annonce qui était un peu plus marketing.
+[00:16:12.880 -> 00:16:16.880] Je pense qu'ils plaident un peu pour leur paroisse.
+[00:16:16.880 -> 00:16:17.880] Vu le volume...
+[00:16:17.880 -> 00:16:18.880] C'est peut-être pas celui-là.
+[00:16:18.880 -> 00:16:19.880] Enfin, peu importe.
+[00:16:19.880 -> 00:16:20.880] Oui, voilà, celui-là.
+[00:16:20.880 -> 00:16:23.880] Et donc, l'idée, c'est que tu as...
+[00:16:23.880 -> 00:16:27.880] Quand tu descends, je crois qu'ils introduisent un nouveau header.
+[00:16:27.880 -> 00:16:28.880] Texte markdown.
+[00:16:28.880 -> 00:16:29.880] Oui, texte markdown, oui.
+[00:16:29.880 -> 00:16:32.880] Et dedans, tu as même des flags qui te permettent de...
+[00:16:32.880 -> 00:16:34.880] AI train, yes.
+[00:16:34.880 -> 00:16:35.880] Tu vois, search, yes.
+[00:16:35.880 -> 00:16:36.880] AI input, yes, etc.
+[00:16:36.880 -> 00:16:39.880] C'est-à-dire que tu vas même pouvoir balancer du contexte.
+[00:16:39.880 -> 00:16:41.880] Et en gros, eux, ce qu'ils voient, c'est que...
+[00:16:41.880 -> 00:16:43.880] Premièrement, c'est qu'il vaut mieux servir un markdown.
+[00:16:43.880 -> 00:16:46.880] Donc, en gros, ça convertit le HTML en markdown.
+[00:16:46.880 -> 00:16:50.880] Et comme, en fait, vu le trafic qui est servi par Cloudflare,
+[00:16:50.880 -> 00:16:52.880] vous imaginez bien qu'eux, ça les intéresse.
+[00:16:52.880 -> 00:16:54.880] Parce que forcément, balancer du HTML,
+[00:16:54.880 -> 00:16:57.880] qui est juste du code, on va dire, qui ne sert à rien,
+[00:16:57.880 -> 00:16:58.880] ils vont juste le compresser.
+[00:16:58.880 -> 00:17:00.880] Et ils t'envoient juste le markdown.
+[00:17:00.880 -> 00:17:03.880] Et du coup, pour les agents, c'est plus simple de naviguer là-dedans
+[00:17:03.880 -> 00:17:05.880] que de scraper du HTML, etc.
+[00:17:05.880 -> 00:17:08.880] Donc, pour moi, je pense qu'il y a un problème de tuyaux.
+[00:17:08.880 -> 00:17:09.880] C'est-à-dire que ça permet de réduire les tuyaux
+[00:17:09.880 -> 00:17:12.880] et de construire un nouveau web, en fait.
+[00:17:12.880 -> 00:17:14.880] Un web qui est dédié pour les agents.
+[00:17:14.880 -> 00:17:15.880] Je pense que...
+[00:17:15.880 -> 00:17:16.880] Je sais plus, j'avais vu le trafic.
+[00:17:16.880 -> 00:17:19.880] Et c'était énorme, genre 40% du trafic mondial
+[00:17:19.880 -> 00:17:22.880] qui était déjà, on va dire, non humain, entre guillemets.
+[00:17:22.880 -> 00:17:24.880] Parce que c'était que des agents.
+[00:17:24.880 -> 00:17:26.880] J'imagine qu'il y a beaucoup de scraper, etc.
+[00:17:26.880 -> 00:17:29.880] Et je pense que ça ne va faire qu'augmenter.
+[00:17:29.880 -> 00:17:31.880] Ça marche avec n'importe quelle page.
+[00:17:31.880 -> 00:17:32.880] Oui, c'est ça qui est ouf.
+[00:17:32.880 -> 00:17:35.880] Alors, je pense qu'il faut quand même que tu sois sur Cloudflare
+[00:17:35.880 -> 00:17:38.880] et que ton DNS soit proxifié par Cloudflare.
+[00:17:38.880 -> 00:17:39.880] C'est stylé.
+[00:17:39.880 -> 00:17:40.880] Mais c'est assez stylé, oui.
+[00:17:40.880 -> 00:17:41.880] Ça me fait penser à...
+[00:17:41.880 -> 00:17:42.880] Il y a deux choses.
+[00:17:42.880 -> 00:17:45.880] Par exemple, nous, pour la doc, on utilise mincify.
+[00:17:45.880 -> 00:17:48.880] Et mincify te donne déjà un truc qui est...
+[00:17:48.880 -> 00:17:51.880] Tu peux copier ta page en markdown.
+[00:17:51.880 -> 00:17:54.880] Alors, je crois que si tu fais genre LLM...
+[00:17:54.880 -> 00:17:57.880] Il y a une URL, je ne sais plus laquelle c'est,
+[00:17:57.880 -> 00:18:00.880] où tu peux récupérer le lien de ta page directement en...
+[00:18:00.880 -> 00:18:02.880] Ah oui, c'est ça.
+[00:18:02.880 -> 00:18:03.880] Tu laisses markdown.
+[00:18:03.880 -> 00:18:06.880] Et après, tu peux naviguer sur toutes tes pages de doc.
+[00:18:06.880 -> 00:18:08.880] Et pareil, celle-là, je peux la voir en markdown.
+[00:18:08.880 -> 00:18:11.880] Donc, tu as un lien où tu as toutes les pages déjà de ta doc en markdown.
+[00:18:11.880 -> 00:18:13.880] Ça, ça existait déjà un peu sur la doc.
+[00:18:13.880 -> 00:18:15.880] Et ça me fait penser à un autre truc que j'ai vu cette semaine.
+[00:18:15.880 -> 00:18:17.880] C'est Anarchive, je ne sais pas si vous connaissez.
+[00:18:18.880 -> 00:18:19.880] Non.
+[00:18:19.880 -> 00:18:22.880] Donc, Anarchive, c'est un truc qui scrape Internet
+[00:18:22.880 -> 00:18:24.880] et qui garde des archives d'Internet, en gros.
+[00:18:24.880 -> 00:18:26.880] Et ils ont fait un LLM.txt.
+[00:18:26.880 -> 00:18:28.880] Et dans leur LLM.txt, ils ont mis ça.
+[00:18:28.880 -> 00:18:31.880] Donc, ils ont dit, si vous êtes un robot, lisez ça.
+[00:18:31.880 -> 00:18:32.880] Du coup, on a des captchas.
+[00:18:32.880 -> 00:18:35.880] Plutôt que d'utiliser les captchas, donnez-nous de l'argent.
+[00:18:35.880 -> 00:18:36.880] Oui, c'est ça.
+[00:18:36.880 -> 00:18:38.880] Si vous avez accès à une méthode de paiement
+[00:18:38.880 -> 00:18:41.880] et que vous êtes capable de persuader un humain,
+[00:18:41.880 -> 00:18:43.880] considérez faire une donation.
+[00:18:43.880 -> 00:18:46.880] Cette donnée évitera d'utiliser les captchas.
+[00:18:46.880 -> 00:18:49.880] Comme ça, vous pouvez directement utiliser l'API, etc.
+[00:18:49.880 -> 00:18:51.880] Ça, c'est très rigolo.
+[00:18:51.880 -> 00:18:55.880] C'est comme les gars qui mettent des instructions LLM dans leur CV.
+[00:18:55.880 -> 00:18:56.880] Oui, sur LinkedIn.
+[00:18:56.880 -> 00:18:58.880] Oui, sur LinkedIn, je trouve ça cool.
+[00:18:58.880 -> 00:19:00.880] Ensuite, qui est parti ?
+[00:19:00.880 -> 00:19:02.880] Je ne l'ai pas lu, je ne sais pas si...
+[00:19:02.880 -> 00:19:04.880] Non, en fait, il disait que...
+[00:19:04.880 -> 00:19:06.880] Ça revient exactement à ce qu'on disait juste avant.
+[00:19:06.880 -> 00:19:09.880] C'est que lui, en gros, il avait un device
+[00:19:09.880 -> 00:19:12.880] qui aurait donné, je ne sais plus ce que c'est, le battement cardiaque.
+[00:19:12.880 -> 00:19:13.880] Je ne sais pas.
+[00:19:14.880 -> 00:19:17.880] Il avait codé un front qui lui faisait son propre dashboard.
+[00:19:17.880 -> 00:19:19.880] Le problème, c'est qu'il a galéré.
+[00:19:19.880 -> 00:19:21.880] Il a dû se connecter à l'application, etc.
+[00:19:21.880 -> 00:19:24.880] Du coup, à la fin, il est surpris par le nombre d'applications
+[00:19:24.880 -> 00:19:26.880] qui fournissent toujours une interface,
+[00:19:26.880 -> 00:19:28.880] alors qu'en fait, ils devraient juste fournir la data.
+[00:19:28.880 -> 00:19:30.880] Ce qui fait que les applications, le software,
+[00:19:30.880 -> 00:19:31.880] ça devient juste des capteurs.
+[00:19:31.880 -> 00:19:34.880] En gros, après, ton agent personnel capte la donnée
+[00:19:34.880 -> 00:19:37.880] et te fait ton dashboard perso à la demande.
+[00:19:37.880 -> 00:19:39.880] C'est vrai que quand tu regardes...
+[00:19:39.880 -> 00:19:41.880] Je ne sais pas si vous avez déjà testé,
+[00:19:41.880 -> 00:19:43.880] mais il disait à son travail qu'il faisait des dashboards tableau.
+[00:19:43.880 -> 00:19:45.880] J'ai dit, attends, on va essayer.
+[00:19:45.880 -> 00:19:47.880] Le dashboard, il m'a décrit ce qu'il faisait au travail
+[00:19:47.880 -> 00:19:49.880] et ça nous a sorti un truc incroyable.
+[00:19:49.880 -> 00:19:51.880] Beaucoup mieux que n'importe quel dashboard.
+[00:19:51.880 -> 00:19:55.880] Voilà, c'était un peu le post autour de ça.
+[00:19:55.880 -> 00:19:57.880] Ces tweets sont toujours très intéressants
+[00:19:57.880 -> 00:19:59.880] parce qu'il y a de la matière.
+[00:20:00.000 -> 00:20:10.200] Personne n'a déjà vu. Son Youtube est super intéressant, si vous avez déjà allé voir, il fait des deep dives des fois de plusieurs heures à l'époque des démarrages d'LRM, c'est assez rafraîchissant.
+[00:20:10.200 -> 00:20:20.200] Récemment, il était assez content parce qu'il a réussi à recompacter les premiers GPT en 270 lignes de piton, un truc comme ça.
+[00:20:20.200 -> 00:20:25.320] Et il dit, je pense que je suis arrivé à la version la plus compacte possible de qu'est-ce qu'un GPT.
+[00:20:26.320 -> 00:20:34.320] Il y a quelqu'un qui répondait à son poste, ça devrait être encadré dans un musée de l'histoire de l'informatique.
+[00:20:34.320 -> 00:20:47.320] Je ne sais pas si à un moment donné on va en parler. J'ai écouté le podcast Lenni avec Boris Czerny, il faisait des parallèles avec la presse de Guttemberg, c'était assez intéressant.
+[00:20:47.320 -> 00:20:54.320] Il disait qu'en 1400, il y avait des archives qui avaient été retrouvées d'un bouquin qui existe, c'est un vieux truc.
+[00:20:54.320 -> 00:21:03.320] Et en fait, ils interviewaient dans ce bouquin-là, un peu en mode interview de l'époque, un scribe pour dire, vous en pensez quoi, ça va vous foutre au chômage, etc.
+[00:21:03.320 -> 00:21:10.320] Il faisait le parallèle du changement et de l'impact que ça a eu sur le monde. C'était assez intéressant, je n'avais pas noté grand-chose de plus.
+[00:21:11.320 -> 00:21:21.320] Lui, il le dit, tout son code est écrit par Cloud Code. Il a noté des stats intéressantes, je ne sais pas où vous en êtes, parce que j'avais fait à peu près le même exercice hier.
+[00:21:21.320 -> 00:21:29.320] Il pushe à peu près entre 10 et 30 PR par jour, c'est intéressant, même juste pour le track record. Moi, j'ai vu, j'en fais 10 fois plus.
+[00:21:29.320 -> 00:21:32.320] Tu fais 300 PR par jour ?
+[00:21:32.320 -> 00:21:38.320] Non, moi, pas autant de PR, mais je pense que j'ai regardé, je crois que depuis le début de l'année, j'ai fait 400 commits.
+[00:21:38.320 -> 00:21:45.320] Mais par contre, je pense que la moitié, c'est sur Cloud Code, pour améliorer le Cloud, les markdowns de Cloud Code, le workflow.
+[00:21:45.320 -> 00:21:49.320] C'est une grosse partie de mon boulot, je ne sais pas pour vous, mais c'est optimiser le workflow.
+[00:21:49.320 -> 00:21:53.320] Et ça, il n'en parlait pas, mais je pense que lui, il passe beaucoup de temps à améliorer juste le Cloud Code.
+[00:21:53.320 -> 00:21:55.320] C'est son métier, non ?
+[00:21:55.320 -> 00:21:56.320] Oui, c'est ça.
+[00:21:57.320 -> 00:22:07.320] Après, je crois que c'est justement le gars d'OpenCloud qui disait, tu peux rapidement tomber dans une boucle d'optimisation de ton outil pour créer l'outil.
+[00:22:07.320 -> 00:22:12.320] Et du coup, tu peux facilement aussi être perdu dans ça et être complètement détaché.
+[00:22:12.320 -> 00:22:17.320] Le but final, c'est de faire ton travail, de produire un outil.
+[00:22:18.320 -> 00:22:23.320] Tout ce qui est les forums d'adjents, etc., tu peux facilement te perdre là-dedans.
+[00:22:23.320 -> 00:22:28.320] Pour au final, pas forcément énormément de valeur ajoutée par rapport à ce que tu dois livrer à la fin.
+[00:22:28.320 -> 00:22:30.320] Et qu'est-ce qu'il racontait qui était intéressant ?
+[00:22:30.320 -> 00:22:31.320] Ah oui, la latane d'Imad.
+[00:22:31.320 -> 00:22:32.320] Ça, c'était intéressant.
+[00:22:32.320 -> 00:22:36.320] C'est qu'en fait, c'est un truc qu'on a tous vu, c'est le point numéro 4.
+[00:22:36.320 -> 00:22:42.320] Ils se sont rendu compte en fait qu'en interne, chez Anthropique, c'est ce que tu disais, les non-technicaux.
+[00:22:42.320 -> 00:22:46.320] Alors chez eux, tout le monde est technicaux, tout le monde sait coder, même le CFO, il code.
+[00:22:46.320 -> 00:22:49.320] Mais ils se sont rendu compte que les gens faisaient autre chose avec.
+[00:22:49.320 -> 00:22:53.320] Et ils ont une espèce de slack interne où les gens posent des questions, etc.
+[00:22:53.320 -> 00:22:54.320] Ils sont très challengeux.
+[00:22:54.320 -> 00:23:00.320] Et ça peut être n'importe quoi, genre le mec qui gérait sa compta, enfin tu vois, des trucs.
+[00:23:00.320 -> 00:23:06.320] Sa compta perso, il y en a qui, je ne sais pas, qui commençaient à gérer des trucs qui n'avaient rien à voir avec le métier d'engineering.
+[00:23:06.320 -> 00:23:10.320] C'est là où il y a eu l'idée de déployer Cowork, qui a été développée en un temps encore.
+[00:23:10.320 -> 00:23:12.320] Je ne sais plus comment il en parlait, mais je crois que c'est…
+[00:23:12.320 -> 00:23:13.320] Ouais, c'est 10 ans, je crois.
+[00:23:13.320 -> 00:23:15.320] Ouais, c'était vraiment très rapide.
+[00:23:15.320 -> 00:23:16.320] Donc ça, c'était intéressant.
+[00:23:16.320 -> 00:23:19.320] Un truc aussi, le point numéro 6, c'est…
+[00:23:19.320 -> 00:23:23.320] Alors lui, il plaide pour sa paroisse, j'imagine, mais quand il le disait, je pense qu'il ne le disait pas dans ce sens-là.
+[00:23:23.320 -> 00:23:26.320] C'était de dire, il faut que vous donniez des tokens illimités.
+[00:23:26.320 -> 00:23:30.320] Parce qu'en fait, c'est ça qui unlock la créativité.
+[00:23:30.320 -> 00:23:37.320] Et moi, je serais souvent bloqué par mon compte, soit à la semaine, soit sur mon compte de tokens sur les plages.
+[00:23:37.320 -> 00:23:38.320] Je suis très souvent bloqué.
+[00:23:38.320 -> 00:23:39.320] Je reconsomme trop.
+[00:23:39.320 -> 00:23:46.320] Et je voyais quelqu'un qui disait la dernière fois qu'on va sans doute endexer maintenant, on va dire, le volume de tokens que tu pourras donner à tes meilleurs développeurs.
+[00:23:46.320 -> 00:23:49.320] Persus, est-ce qu'il faut que je recrute quelqu'un à la place ? Je ne sais pas si vous me suivez, mais…
+[00:23:49.320 -> 00:23:50.320] Ouais.
+[00:23:50.320 -> 00:24:01.320] Parce qu'à un moment donné, de toute façon, on sait très bien que si vous passez en mode handyman, en fait, on paye beaucoup moins cher l'abonnement à 100 ou 200 balles que ce que ça coûte si on était en handyman.
+[00:24:01.320 -> 00:24:04.320] Mais pas sur un facteur x2, on est plutôt à x10.
+[00:24:04.320 -> 00:24:06.320] Et à un moment donné, ça va faire un peu comme les abonnements de Netflix.
+[00:24:06.320 -> 00:24:08.320] Il va y avoir un truc qui va remonter à la hausse.
+[00:24:08.320 -> 00:24:11.320] Une fois que tout le monde sera complètement vendorlocked, il y a une forte chance.
+[00:24:11.320 -> 00:24:16.320] Alors peut-être qu'ils vont réussir à faire baisser le coût, etc. avec l'industrialisation des data centers, etc.
+[00:24:16.320 -> 00:24:21.320] Mais comme la demande grandit, grandit, grandit, il y a quand même une forte chance que le prix augmente à un moment donné.
+[00:24:21.320 -> 00:24:24.320] Donc c'était intéressant, en tout cas, ce qu'il disait là-dessus.
+[00:24:24.320 -> 00:24:29.320] Le prix ne va pas justement chuter ? Je ne sais pas, avec les modèles open source qui ont quelques mois de retard.
+[00:24:29.320 -> 00:24:32.320] C'est-à-dire que cet été, les modèles open source, ils vont être incroyables.
+[00:24:32.320 -> 00:24:33.320] Peut-être, oui.
+[00:24:33.320 -> 00:24:35.320] C'est vrai qu'il y a peut-être aussi ça qui va rentrer en ligne.
+[00:24:35.320 -> 00:24:37.320] Moi, je crois que le prix des Frontier Labs ne va pas chuter.
+[00:24:37.320 -> 00:24:44.320] Parce qu'en fait, ce qu'on voit, c'est que le prix de l'équivalent de Cloud Sony d'aujourd'hui va forcément chuter.
+[00:24:44.320 -> 00:24:48.320] Mais le problème, c'est qu'on va avoir des modèles qui seront meilleurs, qui auront plus de prix à l'input et à l'output.
+[00:24:48.320 -> 00:24:49.320] Et c'est ce qui s'est passé.
+[00:24:49.320 -> 00:24:55.320] Dès qu'Opus est sorti, nous, sur Nao, nos coûts ont explosé parce que les gens sont passés sur Opus.
+[00:24:55.320 -> 00:24:58.320] Et donc, potentiellement, ça va produire moins de tokens, mais en fait, ça coûte plus cher.
+[00:24:58.320 -> 00:25:04.320] Donc en fait, de mon point de vue, je pense que vu qu'on va avoir que des modèles qui seront de mieux en mieux,
+[00:25:04.320 -> 00:25:07.320] les modèles qui seront de mieux en mieux seront plus chers que les modèles qui seront de moins bien.
+[00:25:07.320 -> 00:25:10.320] Et on ne va pas garder un prix fixe.
+[00:25:10.320 -> 00:25:11.320] C'est quand même une hypothèse forte.
+[00:25:11.320 -> 00:25:16.320] C'est-à-dire que ton incrément de modèles, à chaque fois, il est toujours aussi haut.
+[00:25:16.320 -> 00:25:19.320] Et je ne suis pas sûr que ça, je trouve que c'est assez fort comme hypothèse.
+[00:25:19.320 -> 00:25:22.320] Ce n'est pas certain, je pense, que les modèles continuent à s'améliorer.
+[00:25:23.320 -> 00:25:27.320] En fait, le truc qui peut nous sauver, c'est si l'open source catch-up.
+[00:25:27.320 -> 00:25:30.320] Parce que s'il ne catch-up pas, on est gatekeep derrière des API.
+[00:25:30.320 -> 00:25:32.320] Et ils peuvent faire ce qu'ils veulent derrière les API.
+[00:25:32.320 -> 00:25:35.320] Et puis le FunFact, le .7, c'est pareil.
+[00:25:35.320 -> 00:25:39.320] Il a quitté Anthropy pour Cursor avant de lancer Cloud Code.
+[00:25:39.320 -> 00:25:42.320] Et il est reparti chez Anthropy deux semaines après.
+[00:25:44.320 -> 00:25:48.320] Parce qu'en fait, il ne trouvait pas la mission qu'il pouvait voir.
+[00:25:48.320 -> 00:25:49.320] C'est un peu l'explication du truc.
+[00:25:50.320 -> 00:25:53.320] Après, ça peut peut-être lier sur l'histoire de la Constitution.
+[00:25:53.320 -> 00:25:55.320] J'avais écrit un bullet blog là-dessus.
+[00:25:56.320 -> 00:25:59.320] Les mecs ont l'air assez mission driven, c'est ce qu'ils racontent.
+[00:25:59.320 -> 00:26:01.320] C'est chaud de rentrer en Anthropy maintenant.
+[00:26:01.320 -> 00:26:03.320] J'ai un ami qui fait le process.
+[00:26:03.320 -> 00:26:06.320] Il est déjà à son troisième interview sans avoir parlé à qui que ce soit.
+[00:26:06.320 -> 00:26:09.320] Il est devant des machines et des trucs de 4-5 heures d'interview.
+[00:26:09.320 -> 00:26:10.320] Enfin de test.
+[00:26:10.320 -> 00:26:12.320] Donc à ModEye, ça ne m'étonne pas.
+[00:26:12.320 -> 00:26:15.320] J'imagine qu'ils sont très automatisés parce qu'il y a beaucoup de demandes,
+[00:26:15.320 -> 00:26:17.320] vu les paquets, etc.
+[00:26:17.320 -> 00:26:19.320] Donc à ModEye, parce que c'est le premier lien.
+[00:26:19.320 -> 00:26:20.320] Enfin non, c'est le deuxième.
+[00:26:20.320 -> 00:26:22.320] Il avait écrit un article qui est très long, un essai,
+[00:26:22.320 -> 00:26:24.320] qui s'appelle l'adolescence de la technologie.
+[00:26:24.320 -> 00:26:28.320] En gros, il explique tous les risques, tous les problèmes.
+[00:26:28.320 -> 00:26:34.320] Ce qu'ils appellent la GI, l'intelligence ultime,
+[00:26:34.320 -> 00:26:40.320] peut faire planer, que ce soit les risques de création de virus ou autre.
+[00:26:40.320 -> 00:26:44.320] Et en fait, il agite un garde-fou qui est la clôture de la Constitution.
+[00:26:44.320 -> 00:26:46.320] Si tu peux l'ouvrir, c'est assez intéressant.
+[00:26:47.320 -> 00:26:52.320] C'est un peu, on va dire, qu'ils ont créé une espèce de Constitution.
+[00:26:52.320 -> 00:26:56.320] Donc ils ont recruté...
+[00:26:56.320 -> 00:26:58.320] Alors ils ont plein de profils chez eux.
+[00:26:58.320 -> 00:27:01.320] Ils ont des philosophes, des économistes, etc.
+[00:27:01.320 -> 00:27:04.320] Pour penser à ça, l'idée c'est, en gros, qu'est-ce qui est bien,
+[00:27:04.320 -> 00:27:06.320] qu'est-ce qui n'est pas mal, qu'est-ce qui est mal pour eux, etc.
+[00:27:06.320 -> 00:27:08.320] Qu'est-ce que Claude doit faire, qu'est-ce qu'il ne doit pas faire, etc.
+[00:27:08.320 -> 00:27:11.320] Moi, ce que j'écris là, c'est que je trouve que c'est intéressant.
+[00:27:11.320 -> 00:27:15.320] C'est bien de l'avoir, mais c'est mieux d'en avoir une que de ne pas en avoir une.
+[00:27:15.320 -> 00:27:17.320] Mais en vrai, c'est toujours problématique.
+[00:27:17.320 -> 00:27:18.320] C'est comme avec...
+[00:27:18.320 -> 00:27:20.320] Moi, je faisais le parallèle avec Facebook, avec Algorithme.
+[00:27:20.320 -> 00:27:23.320] C'est que c'est toujours 10 mecs dans un garage, dans la Silicon Valley,
+[00:27:23.320 -> 00:27:27.320] dans leur bulle, avec leurs valeurs, leurs modèles de pensée,
+[00:27:27.320 -> 00:27:30.320] qui vont décider finalement de ce qui est bien ou de ce qui n'est pas bien
+[00:27:30.320 -> 00:27:32.320] à l'échelle du monde.
+[00:27:32.320 -> 00:27:34.320] Et puis après, si on redescend même au niveau entreprise,
+[00:27:34.320 -> 00:27:36.320] je pense que là où c'est le sujet à lui-même,
+[00:27:36.320 -> 00:27:39.320] par exemple dans le cas d'une entreprise, c'est qui décide du contexte.
+[00:27:39.320 -> 00:27:41.320] Quand, par exemple, tu as un agent qui va décider,
+[00:27:41.320 -> 00:27:43.320] il va te répondre, par exemple, tu es dans une banque,
+[00:27:43.320 -> 00:27:46.320] est-ce que tu as le droit de poser une question sur...
+[00:27:46.320 -> 00:27:48.320] Est-ce que mon produit, il est bien, etc.?
+[00:27:48.320 -> 00:27:51.320] Est-ce que toi, tu es agent dans une agence bancaire?
+[00:27:51.320 -> 00:27:54.320] Qui va contrôler l'agent? Qui va contrôler le contexte?
+[00:27:54.320 -> 00:27:55.320] Ça donne énormément de pouvoir.
+[00:27:55.320 -> 00:27:58.320] Je pense qu'à terme, ça va être un sujet de gouvernance d'entreprise,
+[00:27:58.320 -> 00:27:59.320] même très, très large.
+[00:27:59.320 -> 00:28:00.320] On a sans doute à le voir mettre...
+[00:28:00.320 -> 00:28:04.320] Moi, j'imaginais un chief contexte officeur, quelque chose comme ça.
+[00:28:04.320 -> 00:28:06.320] Quelqu'un qui soit vraiment dédié à ça.
+[00:28:06.320 -> 00:28:08.320] Et avec... Ouais, pas que de la techno.
+[00:28:08.320 -> 00:28:11.320] C'est vraiment quelqu'un qui peut potentiellement écrire une constitution
+[00:28:11.320 -> 00:28:12.320] à l'interne d'une entreprise.
+[00:28:12.320 -> 00:28:13.320] Je ne sais pas ce que vous en pensez.
+[00:28:13.320 -> 00:28:17.320] Tu veux dire qu'on va relabelliser les jobs de gouvernance en contexte?
+[00:28:17.320 -> 00:28:19.320] Ah oui, peut-être, ouais.
+[00:28:19.320 -> 00:28:20.320] Peut-être, ouais. Peut-être.
+[00:28:20.320 -> 00:28:23.320] La data gouvernance à la mode AI.
+[00:28:23.320 -> 00:28:24.320] Je suis assez d'accord.
+[00:28:24.320 -> 00:28:26.320] Après, il y a une grosse inconnue qui est...
+[00:28:26.320 -> 00:28:27.320] Tout ça, c'est parce que...
+[00:28:27.320 -> 00:28:31.320] C'est si on essaye de mapper la vision qu'on a des entreprises aujourd'hui
+[00:28:31.320 -> 00:28:34.320] dans ce monde agentique, au sens large, si on peut dire agentique,
+[00:28:34.320 -> 00:28:37.320] dans le sens où tu as la connaissance de l'entreprise,
+[00:28:37.320 -> 00:28:42.320] elle se retrouve parsemée entre Drive, Notion, l'ordinateur des gens, etc.
+[00:28:42.320 -> 00:28:45.320] Et tu as besoin d'accéder à tout ce contexte qui vit partout,
+[00:28:45.320 -> 00:28:47.320] dans des meetings, dans des documents, partout.
+[00:28:47.320 -> 00:28:50.320] Et donc, tu as besoin de le rendre à dispo, de le formater,
+[00:28:50.320 -> 00:28:51.320] de le mettre à dispo pour des agents.
+[00:28:51.320 -> 00:28:53.320] Est-ce que c'est ça qu'il faut faire?
+[00:28:53.320 -> 00:28:55.320] Ou est-ce qu'il ne faut pas juste reshuffle complètement l'entreprise
+[00:28:55.320 -> 00:28:58.320] et faire que tu donnes tout en tropic ou à OpenAI,
+[00:28:58.320 -> 00:28:59.320] et puis c'est réglé?
+[00:28:59.320 -> 00:29:01.320] Ça, c'est une question à se poser.
+[00:29:01.320 -> 00:29:03.320] Tout ça a plein de sujets, je pense que...
+[00:29:04.320 -> 00:29:07.320] Ce n'est pas les mêmes sujets qu'on a depuis des dizaines d'années
+[00:29:07.320 -> 00:29:08.320] autour de la data, non?
+[00:29:08.320 -> 00:29:12.320] Oui, centralisation, décentralisation, qui contrôle la gouvernance,
+[00:29:12.320 -> 00:29:14.320] mais qui définit, tu vois, les métriques.
+[00:29:14.320 -> 00:29:16.320] On parlait de semantic layer tout à l'heure.
+[00:29:16.320 -> 00:29:18.320] Donc, il y a toujours des définitions derrière.
+[00:29:18.320 -> 00:29:21.320] Mais là, on touche à un truc qui est peut-être un peu plus profond.
+[00:29:21.320 -> 00:29:24.320] Je ne pense pas que les gens iront se confier à un agent,
+[00:29:24.320 -> 00:29:26.320] par exemple dans une entreprise, de leurs problèmes perso.
+[00:29:26.320 -> 00:29:28.320] Mais je ne pense pas que...
+[00:29:28.320 -> 00:29:30.320] Tu es dans une banque, encore une fois, tu ne vas pas lui demander
+[00:29:30.320 -> 00:29:32.320] alors qu'est-ce que je fais pour ma négo salariale?
+[00:29:32.320 -> 00:29:34.320] Mais peut-être qu'on imagine dans un monde où ça sera le cas.
+[00:29:34.320 -> 00:29:35.320] Je n'en sais rien.
+[00:29:35.320 -> 00:29:37.320] Dans un monde où il n'y a plus de travail
+[00:29:37.320 -> 00:29:38.320] ou qu'il y a le revenu universel,
+[00:29:38.320 -> 00:29:40.320] tu n'as pas besoin de faire de négo salarial.
+[00:29:40.320 -> 00:29:42.320] Oui, ça, c'est vrai.
+[00:29:42.320 -> 00:29:44.320] Pour avoir de l'argent en plus.
+[00:29:44.320 -> 00:29:46.320] En votant, c'est ton vote à l'époque.
+[00:29:46.320 -> 00:29:47.320] Oui.
+[00:29:47.320 -> 00:29:48.320] Oui.
+[00:29:48.320 -> 00:29:49.320] Ça, c'est une bonne question.
+[00:29:49.320 -> 00:29:50.320] Oui.
+[00:29:50.320 -> 00:29:52.320] C'est Jaurès qui a écrit un article.
+[00:29:52.320 -> 00:29:55.320] Il y a quatre, cinq points.
+[00:29:55.320 -> 00:29:58.320] Ne pas utiliser l'AI, c'est une mauvaise idée.
+[00:29:58.320 -> 00:29:59.320] Oh.
+[00:30:00.000 -> 00:30:06.600] C'est un peu ce qu'on vient de dire, le sujet du datamodeling est toujours là, le sujet
+[00:30:06.600 -> 00:30:10.720] de créer des sémantiques, dans le sens sémantique layer, métric store, on s'en fout, mais
+[00:30:10.720 -> 00:30:14.200] juste créer des sémantiques sur ta donnée pour la rendre facilement accessible ou la
+[00:30:14.200 -> 00:30:15.200] factoriser.
+[00:30:15.200 -> 00:30:16.200] Ça a toujours un intérêt j'imagine.
+[00:30:16.200 -> 00:30:17.760] Est-ce qu'on a toujours besoin d'orchestration ?
+[00:30:17.760 -> 00:30:19.440] Ça c'est un bon point.
+[00:30:19.440 -> 00:30:25.000] Surtout quand tu vois OpenClo, quand tu vois OpenClo, quand tu vois… Il y a un truc,
+[00:30:25.000 -> 00:30:29.680] je ne sais pas si vous connaissez ça, le 12-factor agent, il y a un truc qui m'a
+[00:30:29.680 -> 00:30:38.080] explosé le cerveau, c'était de penser les agents comme des orchestrateurs mais qui
+[00:30:38.080 -> 00:30:41.880] sont des orchestrateurs nouvelle génération en gros, je ne sais plus lequel c'est.
+[00:30:41.880 -> 00:30:46.880] D'ailleurs est-ce que vous, vous orchestrez des tâches par exemple ? Moi je n'ai pas
+[00:30:46.880 -> 00:30:52.120] de solution aujourd'hui, par exemple imaginons, tu lances une commande en journée ou le matin
+[00:30:52.120 -> 00:30:56.880] par exemple pour garder mes tags Airflow, je le fais tous les matins, j'aimerais bien
+[00:30:56.880 -> 00:30:57.880] l'automatiser.
+[00:30:57.880 -> 00:30:59.880] Est-ce que tu peux se l'entendre en train de parler indirectement ?
+[00:30:59.880 -> 00:31:03.560] Non je ne le fais rien pour l'instant, c'est un truc que je vais mettre dans Nao, qu'on
+[00:31:03.560 -> 00:31:08.040] a dans la roadmap Nao mais je ne le fais pas pour l'instant.
+[00:31:08.040 -> 00:31:11.120] Oui mais c'est tellement pertinent ce point, c'est que tous nos outils d'orchestrateurs
+[00:31:11.120 -> 00:31:14.320] ils sont faits pour des humains, ils sont designés pour des humains et ils ne sont
+[00:31:14.320 -> 00:31:17.960] pas du tout designés pour avoir de l'intelligence en plus qui est dans eux, qui est capable
+[00:31:17.960 -> 00:31:18.960] de réagir etc.
+[00:31:18.960 -> 00:31:20.920] Oui parce qu'ils sont très rigides en fait.
+[00:31:20.920 -> 00:31:25.920] Et c'est ça le truc qui m'avait mentalement changé complètement à la personne, le truc
+[00:31:25.960 -> 00:31:31.960] c'est que l'orchestrateur c'était ça, il y a 60 ans c'était des If-Else et c'est tout.
+[00:31:31.960 -> 00:31:36.960] Puis après quand on est arrivé dans les tags d'orchestrateurs, la Airflow etc, t'as un
+[00:31:36.960 -> 00:31:42.160] event ou un cron qui déclenche un template d'orchestration qui est très figé avec juste
+[00:31:42.160 -> 00:31:47.320] des If ou des Skip à des endroits et t'as juste des fins qui sont déjà connues.
+[00:31:47.320 -> 00:31:51.440] Et quand tu fais de l'agent c'est complètement différent dans le sens où t'as un event
+[00:31:51.440 -> 00:31:55.880] qui déclenche un truc, t'as un orchestrateur principal qui est l'agent le plus, enfin le
+[00:31:55.880 -> 00:31:58.640] modèle le plus intelligent et ensuite t'as des boîtes et les boîtes tu peux dire que
+[00:31:58.640 -> 00:32:01.760] c'est les tools, tu peux dire que c'est la MCP, tu peux dire whatever mais c'est des
+[00:32:01.760 -> 00:32:05.760] choses qu'il peut faire et ensuite c'est l'agent qui décide le chemin qu'il veut prendre
+[00:32:05.760 -> 00:32:09.680] à l'intérieur et donc à la fin il fait une orchestration de tâches mais le chemin
+[00:32:09.680 -> 00:32:14.120] d'orchestration de tâches est toujours différent et c'est un élément qui décide pour arriver
+[00:32:14.120 -> 00:32:15.120] à un goal.
+[00:32:15.120 -> 00:32:19.360] Moi j'ai travaillé là dessus cette semaine pour mon workflow de coding et j'ai fait exactement
+[00:32:19.360 -> 00:32:20.360] ça.
+[00:32:20.360 -> 00:32:23.640] T'as un agent qui est un orchestrateur qui appelle des agents qui sont des workers et
+[00:32:23.640 -> 00:32:26.960] après t'as plein de rôles différents et en fait au début j'avais le réflexe de
+[00:32:26.960 -> 00:32:31.200] faire comme il y a 50 ans, de faire des if-else dans mon daemon, celui qui est dans le cron
+[00:32:31.200 -> 00:32:32.200] si tu veux.
+[00:32:32.200 -> 00:32:34.720] En fait plus ça allait plus j'ai dit mais en fait non j'ai juste fait un prompt pour
+[00:32:34.720 -> 00:32:39.200] un orchestrateur avec un peu les goals etc et après c'est lui qui se débrouille à
+[00:32:39.200 -> 00:32:42.440] orchestrer tous les sous-agents et en fait c'est tellement plus intelligent, plus flexible
+[00:32:42.440 -> 00:32:43.440] et t'arrives...
+[00:32:43.440 -> 00:32:48.320] Mais du coup c'est 10 fois mieux et en fait ça c'est pour mon petit cas d'usage de coding
+[00:32:48.320 -> 00:32:51.800] mais en fait pour tous les DAGs de data engineering ça devrait être exactement la même chose
+[00:32:51.800 -> 00:32:52.800] quoi.
+[00:32:52.800 -> 00:32:56.240] La gestion fail, ok bah je change mon schéma ou des choses comme ça et ouais c'est ultra
+[00:32:56.240 -> 00:32:57.240] pertinent comme point.
+[00:32:57.240 -> 00:33:02.720] C'est ce que racontait Boris Czerny sur le fait qu'il n'y a plus besoin de lui donner
+[00:33:02.720 -> 00:33:03.720] une liste de tâches en fait.
+[00:33:03.720 -> 00:33:07.760] Il a déjà avalé les scaffoldings humains et c'est en fait, il est assez malin pour
+[00:33:07.760 -> 00:33:11.360] dire bon bah il y a ça qui se passe effectivement, il faut que j'aille modifier mon modèle.
+[00:33:11.360 -> 00:33:13.920] Du coup cron is the new airflow non c'est ça ?
+[00:33:14.920 -> 00:33:18.920] Bah ouais c'est pas loin, c'est pas loin.
+[00:33:18.920 -> 00:33:21.920] Bah en fait dans l'effet quand tu regardes c'est une mi-taine, pardon.
+[00:33:21.920 -> 00:33:22.920] De quoi ?
+[00:33:22.920 -> 00:33:23.920] Vas-y, vas-y, vas-y.
+[00:33:23.920 -> 00:33:27.920] Ah non mais ouais une mi-taine ouais, moi j'ai réfléchi, on a quelques DAGs et une
+[00:33:27.920 -> 00:33:32.920] mi-taine, même du mec, c'est hyper rigide, ça casse tout le temps, c'est vraiment pas
+[00:33:32.920 -> 00:33:34.920] fun à faire, même avec un MCP.
+[00:33:34.920 -> 00:33:35.920] C'est pas As-Code.
+[00:33:35.920 -> 00:33:36.920] Ouais mais...
+[00:33:36.920 -> 00:33:40.920] Après ça t'as juste besoin d'un daemon, t'as juste besoin d'un daemon, c'est un peu ça.
+[00:33:40.920 -> 00:33:46.920] Même Gunstown, le workflow d'orchestration de Yegi, bah c'est ça en fait, il a un daemon
+[00:33:46.920 -> 00:33:49.920] qui ping les LLM de manière régulière.
+[00:33:49.920 -> 00:33:52.920] Bah on peut parler de ma petite expérimentation d'hier si vous voulez ?
+[00:33:52.920 -> 00:33:53.920] Ouais vas-y.
+[00:33:53.920 -> 00:33:54.920] Parce que c'était le même truc.
+[00:33:54.920 -> 00:34:00.920] Alors Gunstown j'avais essayé, j'ai trouvé ça intéressant, moi j'avais jamais fait
+[00:34:00.920 -> 00:34:05.920] vraiment beaucoup de swarm d'agents, j'avais testé comme tout le monde des loops avec
+[00:34:05.920 -> 00:34:11.920] comment ça s'appelait, High Free Gun au départ, mais c'est très rigide, et du coup je m'étais
+[00:34:11.920 -> 00:34:12.920] plutôt...
+[00:34:12.920 -> 00:34:15.920] Enfin je l'utilisais par exemple pour les reviews.
+[00:34:15.920 -> 00:34:21.920] On utilise beaucoup le GitHub Workflow, le reviewer d'Entropiq.
+[00:34:21.920 -> 00:34:23.920] Qui coûte méga cher.
+[00:34:23.920 -> 00:34:26.920] L'idée c'était de dire, j'en avais marre en fait de faire des copier-coller, des feedbacks
+[00:34:26.920 -> 00:34:30.920] qui sont à chaque fois très pertinents, des trucs que j'arrivais pas à checker, et
+[00:34:30.920 -> 00:34:35.920] comme je regarde de moins en moins le code, c'est ce que tu disais tout à l'heure, parce
+[00:34:35.920 -> 00:34:38.920] qu'à l'intérieur en fait ça m'intéresse pas trop, je m'étais dit bon on va looker
+[00:34:38.920 -> 00:34:40.920] dessus, et ça ça marchait pas mal pendant un certain temps.
+[00:34:40.920 -> 00:34:43.920] Après on a fait un peu de codex en local aussi.
+[00:34:43.920 -> 00:34:47.920] Mais par contre pour des sujets un peu plus complexes, j'avais essayé Gunstown et j'avais
+[00:34:47.920 -> 00:34:51.920] trouvé que ça portait bien son nom, c'était vraiment l'usine à gaz pour le coup.
+[00:34:51.920 -> 00:34:53.920] Et j'avais lâché l'affaire.
+[00:34:53.920 -> 00:34:55.920] J'avais passé un samedi entier.
+[00:34:56.920 -> 00:35:01.920] Je trouvais le pattern intéressant, et j'avais vu une interview du mec sur YouTube, et qui
+[00:35:01.920 -> 00:35:05.920] expliquait en fait que lui il allait un peu voir tous les gros acteurs, je sais pas d'où
+[00:35:05.920 -> 00:35:06.920] il vient, mais bref.
+[00:35:06.920 -> 00:35:09.920] Il allait voir les Anthropique, et il essaie de leur vendre l'idée, parce qu'il sait
+[00:35:09.920 -> 00:35:11.920] exactement ce qu'il faut faire.
+[00:35:11.920 -> 00:35:15.920] Et donc là il y a le nouveau flag qui a été lancé par Anthropique, qui permet de faire
+[00:35:15.920 -> 00:35:16.920] de l'agent swarm.
+[00:35:16.920 -> 00:35:17.920] Et donc hier j'ai essayé.
+[00:35:17.920 -> 00:35:20.920] Donc nous on a une commande qu'on utilise beaucoup, parce qu'on parle beaucoup de faire
+[00:35:20.920 -> 00:35:23.920] du code en mode complètement, pas totalement automatisé, c'est-à-dire d'arrêter de
+[00:35:23.920 -> 00:35:24.920] faire du code.
+[00:35:24.920 -> 00:35:26.920] Et on fait la même chose sur des analyses de données.
+[00:35:26.920 -> 00:35:27.920] On en fait beaucoup, beaucoup comme ça.
+[00:35:27.920 -> 00:35:28.920] C'est très intéressant.
+[00:35:28.920 -> 00:35:32.920] Donc on a des agents qui font du fact-checking de données, on a des trucs comme ça, etc.
+[00:35:32.920 -> 00:35:34.920] Et on fait beaucoup, on va dire d'itérations, mais avec le métier.
+[00:35:34.920 -> 00:35:38.920] Quand je dis une analyse de données, c'est des fois des markdowns, enfin des fichiers
+[00:35:38.920 -> 00:35:39.920] notion qui sont assez longs.
+[00:35:39.920 -> 00:35:40.920] On teste une hypothèse, etc.
+[00:35:40.920 -> 00:35:44.920] Et souvent ce qu'on fait, c'est qu'on le lance, on fait un peu de prompt engineering, avec
+[00:35:44.920 -> 00:35:47.920] quelques différences sur, par exemple, plusieurs sessions Cloud Code.
+[00:35:47.920 -> 00:35:50.920] Un, deux, trois, avec différentes hypothèses, etc.
+[00:35:51.920 -> 00:35:55.920] Et après, on regarde les captes à output, par exemple, et on essaie de regarder s'il
+[00:35:55.920 -> 00:35:58.920] n'y a pas eu un problème, ou si la méthode a été mal interprétée.
+[00:35:58.920 -> 00:36:01.920] C'est un peu du gut feeling, mais on connaît la data, et les métiers connaissent la data.
+[00:36:01.920 -> 00:36:06.920] Donc, en fait, on arrive quand même comme ça à trouver des axes, en fait, où des
+[00:36:06.920 -> 00:36:09.920] fois on se dit, tiens, là, il a peut-être un petit peu halluciné.
+[00:36:09.920 -> 00:36:13.920] Et là, j'ai utilisé cette même technique, finalement.
+[00:36:13.920 -> 00:36:17.920] Donc nous, on utilise, pour le coup, c'est pas un workflow, mais on utilise la méthode
+[00:36:17.920 -> 00:36:20.920] NAST, la méthode exploratoire de données.
+[00:36:20.920 -> 00:36:23.920] Enfin, un truc très basique sur comment on fait une bonne exploration de données.
+[00:36:23.920 -> 00:36:24.920] On a une skill là-dessus.
+[00:36:24.920 -> 00:36:28.920] Et là, en fait, je lui ai juste dit, ben voilà, tu vas créer un swarm d'agents.
+[00:36:28.920 -> 00:36:29.920] C'est du descriptif.
+[00:36:29.920 -> 00:36:30.920] Il n'y a rien à faire.
+[00:36:30.920 -> 00:36:31.920] Tu me dis, tu crées une team.
+[00:36:31.920 -> 00:36:32.920] Tu actives le flag d'abord.
+[00:36:32.920 -> 00:36:35.920] Et moi, je lui ai demandé, en fait, déjà ce que tu vas faire.
+[00:36:35.920 -> 00:36:36.920] Donc, tu as un leader.
+[00:36:36.920 -> 00:36:37.920] Donc là, c'est le truc qui est sur la gauche.
+[00:36:37.920 -> 00:36:39.920] Le leader, en fait, il a pris l'hypothèse.
+[00:36:39.920 -> 00:36:44.920] Et là, je lui ai demandé, par exemple, quand tu as des clients qui arrivent chez nous,
+[00:36:44.920 -> 00:36:46.920] ils font un formulaire de sign-up.
+[00:36:46.920 -> 00:36:49.920] Et en fait, il y a des patterns dedans qu'on essaie de checker en disant,
+[00:36:49.920 -> 00:36:55.920] est-ce que quelqu'un qui a des enfants, il est plus, tu vois, ou moins amené à plus turner, etc.
+[00:36:55.920 -> 00:36:57.920] Tu vois, c'est des trucs un peu touchy.
+[00:36:57.920 -> 00:37:00.920] Et du coup, ce qu'on a fait, c'est qu'on a pris plusieurs hypothèses comme ça.
+[00:37:00.920 -> 00:37:04.920] Et on lui a demandé, le leader, tu vas déjà essayer d'isoler plusieurs hypothèses.
+[00:37:04.920 -> 00:37:05.920] Après, tu vas swarm.
+[00:37:05.920 -> 00:37:10.920] Tu vas créer un swarm avec quatre agents qui vont faire des analyses sans le contexte initial.
+[00:37:10.920 -> 00:37:14.920] Ils vont y aller, ils vont tourner en mode complètement seul.
+[00:37:14.920 -> 00:37:17.920] En bout de chaîne, tu as un fact-checker, un data fact-checker,
+[00:37:17.920 -> 00:37:22.920] qui est un agent complètement seul, qui va fact-checker tes hypothèses, tes conclusions.
+[00:37:22.920 -> 00:37:24.920] Et tu renvoies l'ensemble au leader.
+[00:37:24.920 -> 00:37:26.920] Et lui, en fait, il wrap l'ensemble.
+[00:37:26.920 -> 00:37:29.920] Et il fait hypothèse contre hypothèse.
+[00:37:29.920 -> 00:37:31.920] Il va crosser les hypothèses.
+[00:37:31.920 -> 00:37:35.920] Et il nous fait un gros fichier Notion dans lequel on peut continuer à itérer.
+[00:37:36.920 -> 00:37:39.920] J'ai trouvé que c'était assez...
+[00:37:39.920 -> 00:37:41.920] Ça m'a un peu détruit le cerveau.
+[00:37:41.920 -> 00:37:42.920] J'ai trouvé que c'était incroyable.
+[00:37:42.920 -> 00:37:45.920] Bon, ça burn des tokens de ouf, par contre.
+[00:37:45.920 -> 00:37:50.920] Mais c'est vraiment impressionnant à regarder et voir l'output.
+[00:37:50.920 -> 00:37:51.920] Je trouve ça intéressant.
+[00:37:51.920 -> 00:37:54.920] Moi, je l'ai fait sur la partie data analyse.
+[00:37:54.920 -> 00:37:55.920] Mais on peut le faire sur du code.
+[00:37:55.920 -> 00:37:58.920] J'imagine que sur du code, ça doit être encore plus intéressant à regarder.
+[00:37:58.920 -> 00:38:00.920] Mais j'ai trouvé l'expérience sympa.
+[00:38:00.920 -> 00:38:02.920] En tout cas, moi, j'ai trouvé que c'était intéressant
+[00:38:02.920 -> 00:38:03.920] parce que ça m'a fait gagner énormément de temps.
+[00:38:03.920 -> 00:38:05.920] En tout cas, déjà, de ce côté-là.
+[00:38:05.920 -> 00:38:07.920] C'est quoi la différence avec des sub-agents ?
+[00:38:07.920 -> 00:38:10.920] En fait, là, il en fait...
+[00:38:10.920 -> 00:38:12.920] Oui, c'est une bonne question.
+[00:38:12.920 -> 00:38:17.920] Je pense qu'il n'y a pas vraiment beaucoup de différence sur les sub-agents par rapport à ça.
+[00:38:17.920 -> 00:38:21.920] Là, ce que tu vois, c'est juste que tu vois l'output des sub-agents exploser.
+[00:38:21.920 -> 00:38:24.920] Oui, en fait, là, ce qui était intéressant, c'est qu'il les a chaînés, il les a isolés.
+[00:38:24.920 -> 00:38:26.920] Mais sinon, c'est la même salle en principe.
+[00:38:26.920 -> 00:38:30.920] Tu vois le chat de chaque agent.
+[00:38:30.920 -> 00:38:31.920] Tu vois le chat.
+[00:38:31.920 -> 00:38:35.920] Tu peux interagir avec eux parce qu'ils peuvent même placer en mode plan, etc.
+[00:38:35.920 -> 00:38:38.920] Tu peux interagir avec eux s'il y a des questions à poser.
+[00:38:38.920 -> 00:38:40.920] Ça fait des sessions Cloud isolées.
+[00:38:40.920 -> 00:38:44.920] Sur la droite, là, tu vois, il y a une analyse d'intensité transactionnelle.
+[00:38:44.920 -> 00:38:48.920] Il y en a une, c'est expectation validity capabilities, etc.
+[00:38:48.920 -> 00:38:51.920] Et question, l'output, tu as dit que c'était un Notion ?
+[00:38:51.920 -> 00:38:54.920] Moi, c'est parce qu'en fait, quand on a une slash commande
+[00:38:54.920 -> 00:38:56.920] qui, à la fin, produit toujours une Notion.
+[00:38:56.920 -> 00:38:58.920] Oui, mais du coup, le Notion, tu as eu envie de le lire ou pas ?
+[00:38:58.920 -> 00:38:59.920] Oui, j'ai lu, oui.
+[00:38:59.920 -> 00:39:00.920] Tu l'as lu, ok.
+[00:39:00.920 -> 00:39:02.920] Oui, alors je lis beaucoup plus qu'avant.
+[00:39:02.920 -> 00:39:03.920] C'est ça qui est possible.
+[00:39:03.920 -> 00:39:05.920] Je produis moins de SQL.
+[00:39:05.920 -> 00:39:07.920] Il y a le SQL, d'ailleurs, à la fin, parce qu'on l'a bien élevé.
+[00:39:07.920 -> 00:39:10.920] À la fin, on lui a demandé toujours de mettre le SQL.
+[00:39:10.920 -> 00:39:15.920] Donc, il y a des trucs, d'ailleurs, des fois, où il utilise les mauvaises informations.
+[00:39:15.920 -> 00:39:17.920] Mais là, tu vois, hier, c'était vraiment assez prudent.
+[00:39:17.920 -> 00:39:19.920] Il utilisait bien la sémantique layer.
+[00:39:19.920 -> 00:39:21.920] Il vient aller chercher les trucs au bon endroit.
+[00:39:21.920 -> 00:39:23.920] Le Data Warehouse a bien été utilisé.
+[00:39:23.920 -> 00:39:24.920] Il a bien suivi les règles.
+[00:39:24.920 -> 00:39:26.920] Donc, c'était un crash test assez intéressant.
+[00:39:26.920 -> 00:39:28.920] Je ne sais pas si je le refais tous les jours,
+[00:39:28.920 -> 00:39:31.920] mais peut-être en fin de journée, quand j'ai des tokens qui restent,
+[00:39:31.920 -> 00:39:34.920] quand je n'ai plus rien à faire, le lancer sur des pistes,
+[00:39:34.920 -> 00:39:35.920] ça peut être intéressant.
+[00:39:35.920 -> 00:39:36.920] Très bien.
+[00:39:36.920 -> 00:39:39.920] Je vais toujours trouver, la fin de journée, où tu as le cerveau qui est cramé,
+[00:39:39.920 -> 00:39:41.920] de lancer des trucs au mode, je n'ai plus envie d'y penser,
+[00:39:41.920 -> 00:39:45.920] je n'ai plus l'énergie de revoir le plan.
+[00:39:45.920 -> 00:39:46.920] En général, c'est fini.
+[00:39:46.920 -> 00:39:49.920] Le lendemain matin, je ne sais pas, non.
+[00:39:49.920 -> 00:39:53.920] En général, le « let it go » le soir, il faut que ce soit vraiment isolé,
+[00:39:53.920 -> 00:39:54.920] c'est ce que j'ai remarqué.
+[00:39:54.920 -> 00:39:56.920] Mais oui, j'ai un problème avec ça.
+[00:39:56.920 -> 00:39:58.920] Je pense qu'on a beaucoup de problèmes.
+[00:39:58.920 -> 00:39:59.920] C'est cette image de la slot.
+[00:40:00.000 -> 00:40:07.000] machine, en fait tu peux jamais t'arrêter. Heureusement d'ailleurs que les tokens ont une fin parce que des fois je pense que je resterai trop longtemps encore un peu.
+[00:40:07.000 -> 00:40:12.000] C'est ça le point qu'il avait là dans son interview, il faut donner illimité de tokens, c'est pour que les gens travaillent de manière illimitée non ?
+[00:40:12.000 -> 00:40:19.000] Il y a peut-être un peu de ça. En tout cas moi j'ai l'impression de jouer à un jeu vidéo donc c'est ludique en fait. Moi personnellement je trouve m'amuser
+[00:40:19.000 -> 00:40:28.000] beaucoup plus avant que maintenant. Par exemple faire du code ça m'intéresse pas des masses, c'est pas un truc que j'ai jamais aimé donc j'aime bien mais c'est pas vraiment
+[00:40:28.000 -> 00:40:35.000] ce qui m'intéresse. Ce qui m'intéresse c'est plutôt résoudre les problèmes, tu vois le métier, craquer un truc, ça ça m'intéresse plus. Mais chacun voit un métier
+[00:40:35.000 -> 00:40:42.000] sa part. Je suis mis très fatigué, très fatigué fin de journée, je sais pas pour vous mais des fois pas la même fatigue qu'avant et je fais beaucoup de siestes.
+[00:40:42.000 -> 00:40:48.000] Et du coup c'est pas un peu flippant, moi je trouve ok c'est trop bien, on peut faire trop de trucs et tout, mais après quand tu te dis que tout le monde a accès à la même
+[00:40:48.000 -> 00:40:57.000] intelligence, c'est pas un peu flippant aussi ? Dans le sens où tu dis ok quand tu regardes toi ton situation micro c'est trop cool, tu fais des progrès etc.
+[00:40:57.000 -> 00:41:03.000] Après tu te relèves tu te dis ah ouais mais il y a des millions de personnes, des milliards de personnes sur la planète qui ont exactement accès à la même outil.
+[00:41:03.000 -> 00:41:11.000] Et surtout qu'on privatise, on privatise aussi un peu cette connaissance, ça c'est un truc que je me suis dit c'est qu'avant quand il y avait
+[00:41:11.000 -> 00:41:18.000] Stakeoverflow ou les blogs où tu partageais les trucs c'était un peu en open et donc en fait toute cette connaissance de quand j'avais un bug, quand j'avais un problème
+[00:41:18.000 -> 00:41:25.000] je le cherchais sur internet et c'était bien en open. Maintenant avec les agents, tu privatises et tu gatekeep tout ce truc là parce qu'en fait quand tu résous un bug
+[00:41:25.000 -> 00:41:32.000] ça part dans les données d'entraînement d'Entropique, ça part dans les données d'entraînement d'OpenAI et on n'y a plus accès en tant que société globale.
+[00:41:32.000 -> 00:41:40.000] D'où l'intérêt de le problème de la constitution. Parallèlement un mec qui est en Arabie Saoudite aujourd'hui il utilise Entropique, les valeurs ne sont pas les mêmes.
+[00:41:40.000 -> 00:41:48.000] En plus de faire partir le truc je pense qu'il y a plusieurs problèmes. Il y a le problème éthique, il y a le problème de captation de cette connaissance.
+[00:41:49.000 -> 00:42:09.000] Il y aura des jobs créés dans tout ce qui n'est pas lié à un ordinateur. J'ai du mal à voir comment on peut faire plus que ce qu'on fait déjà maintenant.
+[00:42:09.000 -> 00:42:11.000] Est-ce qu'il y aura moins de jobs ?
+[00:42:12.000 -> 00:42:22.000] Par la tech oui. On est plus en contraction économique, on réduit la taille et le volume de la team globalement. À une époque j'avais une équipe de 6 personnes, on est 2 maintenant.
+[00:42:22.000 -> 00:42:31.000] Et on n'a jamais autant shippé. Parce qu'en fait on ne code plus, on est concentré sur l'essentiel. J'ai l'impression que ce que je suis en train de vivre, beaucoup de boîtes vont le vivre.
+[00:42:31.000 -> 00:42:41.000] Après il y a des boîtes qui ne sont pas comme ça. J'ai discuté avec un ancien collègue qui est dans le luxe. Ils sont encore en train de dire non, pas d'argent, on est encore là pour la beauté du craft etc.
+[00:42:41.000 -> 00:42:43.000] Mais ça va tenir combien de temps encore ?
+[00:42:43.000 -> 00:42:45.000] 5-6 ans c'est fini. 5-10 ans peut-être.
+[00:42:45.000 -> 00:42:52.000] Quand ça sera un avantage concurrentiel que les autres auront et qu'eux n'auront pas, même si c'est une marque de luxe très reconnue, je pense que la même sera longtemps.
+[00:42:52.000 -> 00:42:57.000] Est-ce que du coup vous êtes passé de 6 à 2 ? Est-ce qu'à ton avis vous pouvez passer de 2 à 0 d'ici un an ?
+[00:42:57.000 -> 00:42:59.000] C'est possible ouais.
+[00:43:00.000 -> 00:43:11.000] Aujourd'hui il y a quand même de la friction. J'avais écrit un truc là-dessus, je pense qu'aujourd'hui le plan devient le produit. Le produit ce n'est plus le code, c'est ce que tu planifies.
+[00:43:11.000 -> 00:43:13.000] C'est ce que disait Julien, c'est les specs.
+[00:43:13.000 -> 00:43:16.000] Oui c'est les specs. Mais même les specs aujourd'hui, il n'y a plus de specs.
+[00:43:16.000 -> 00:43:18.000] Oui mais ça dépend ce que tu appelles les specs.
+[00:43:18.000 -> 00:43:21.000] Tu fais un prototype, tu vas dans le label et tu craftes ton truc.
+[00:43:21.000 -> 00:43:24.000] Les prototypes c'est une spec, c'est juste une spec à visuel.
+[00:43:24.000 -> 00:43:26.000] Je suis d'accord.
+[00:43:26.000 -> 00:43:28.000] Est-ce qu'ils vont être meilleurs que nous à faire des specs peut-être ?
+[00:43:28.000 -> 00:43:30.000] On voit comme si c'était personnifié.
+[00:43:30.000 -> 00:43:41.000] Je pense que c'est là où le gars, le Lazare, le professionnel vague connard que j'ai vu, son interview était super intéressante, encore sur le même podcast.
+[00:43:41.000 -> 00:43:45.000] En gros lui il part du principe que les skills vont prendre le dessus.
+[00:43:45.000 -> 00:43:55.000] Il ne serait pas étonné qu'il y ait une espèce de revival d'un intérêt de toutes les compétences qui peuvent être liées à un goût artistique.
+[00:43:55.000 -> 00:43:59.000] C'est ce genre de compétences qu'on disait à mon temps.
+[00:43:59.000 -> 00:44:02.000] Quand j'étais jeune, moi je voulais faire de l'art.
+[00:44:02.000 -> 00:44:06.000] Ou j'étais bon, j'aimais bien bidouiller les ordinateurs.
+[00:44:06.000 -> 00:44:09.000] Mais en gros on m'a dit, tu es bon en maths donc va faire une école d'ingénieur.
+[00:44:09.000 -> 00:44:11.000] Parce que ça rapporte de l'argent.
+[00:44:11.000 -> 00:44:13.000] Je pense que si j'avais suivi mon cœur, je serais parti de l'autre côté.
+[00:44:13.000 -> 00:44:24.000] Mais maintenant, je pense que le goût, la curiosité, l'empathie, tous ces trucs-là que l'agent ne peut pas régénérer, il faudra peut-être le challenger dans quelques temps.
+[00:44:24.000 -> 00:44:27.000] Je pense que c'est quelque chose qui va avoir de plus en plus de valeur.
+[00:44:27.000 -> 00:44:37.000] L'inventivité, l'abnégation, tous ces trucs qu'on ne peut jamais juger autrement que quand tu travailles avec quelqu'un.
+[00:44:37.000 -> 00:44:43.000] Sur les specs, cette semaine avec Claire, on a fait une semaine où on a essayé de planifier ce qu'on voulait dans Nao sur l'agent.
+[00:44:43.000 -> 00:44:47.000] On a beaucoup posé, on a fait beaucoup sur papier des choses.
+[00:44:47.000 -> 00:44:56.000] Et une fois qu'on était un peu aligné sur les trucs qu'on avait envie de faire, on recordait nos sessions où on parlait et on laissait l'agent transcriber.
+[00:44:56.000 -> 00:45:00.000] Et ensuite, à partir de ce qu'on avait parlé, essayer de le mettre dans des issues et spécifier les choses.
+[00:45:00.000 -> 00:45:04.000] Franchement, c'est bien, mais il fait des trucs qui ne servent à rien.
+[00:45:04.000 -> 00:45:10.000] Franchement, quand il nous écrivait des issues à la fin, on enlevait je pense 40% des trucs qu'il écrivait parce qu'il écrivait des trucs qui ne servaient à rien.
+[00:45:10.000 -> 00:45:14.000] Soit il n'avait pas compris, soit il inférait des choses qui n'étaient pas intéressantes.
+[00:45:15.000 -> 00:45:18.000] Je trouve qu'il y a un truc qui est horrible.
+[00:45:18.000 -> 00:45:25.000] Vu qu'il écrit plein de choses, il ne capture pas vraiment le seul truc qui est essentiel ou il n'est pas très fort sur la synthétique.
+[00:45:25.000 -> 00:45:27.000] Et du coup, il y a beaucoup de lignes qui ne servent à rien.
+[00:45:27.000 -> 00:45:33.000] Est-ce que c'est l'intention qui n'arrive pas à capter ou est-ce que c'est parce qu'il y a toujours le sous-jacent ? Il n'est pas dans ta tête.
+[00:45:33.000 -> 00:45:35.000] Non, il y a des trucs d'intention qu'il captait bien.
+[00:45:35.000 -> 00:45:38.000] C'est plutôt la tendance à rajouter des trucs qui ne servent à rien.
+[00:45:38.000 -> 00:45:40.000] Des trucs que tu ne veux pas mettre dans l'aspect.
+[00:45:40.000 -> 00:45:45.000] Genre dire dans l'aspect « you have to be careful about race conditions ».
+[00:45:45.000 -> 00:45:47.000] Je m'en fous que ça soit écrit dans l'aspect.
+[00:45:49.000 -> 00:45:52.000] Tout le monde s'en fout des race conditions, c'est bien connu.
+[00:45:52.000 -> 00:45:54.000] Je ne sais pas, toi, ton avis, Julien ?
+[00:45:54.000 -> 00:45:56.000] Sur les specs ?
+[00:45:56.000 -> 00:46:00.000] Je pense que ce que tu discrivais, Christophe, c'est assez intéressant.
+[00:46:00.000 -> 00:46:06.000] Dans le sens où tu es dans le monde physique et puis après on transcrit des specs dans le monde digital et après ça se fait tout seul.
+[00:46:06.000 -> 00:46:14.000] Probablement que ça va franchir ce gap où on va pouvoir interagir dans le monde physique avec déjà un agent qui va nous aider à faire les specs.
+[00:46:14.000 -> 00:46:20.000] J'ai un whiteboard derrière moi et probablement ce qui sera intéressant, ça c'est Bonapopo qui m'en a parlé, un projet qui fait ça,
+[00:46:20.000 -> 00:46:24.000] c'est d'avoir des projections dessus où je peux interagir avec l'IA déjà là.
+[00:46:24.000 -> 00:46:29.000] Ça me fait plein de potes parce que ça permet déjà de raffiner l'intention dans le monde physique,
+[00:46:29.000 -> 00:46:33.000] vérifier qu'il a bien compris, avoir des questions, discuter avec lui comme ça.
+[00:46:33.000 -> 00:46:37.000] Et surtout, ça ouvre le développement informatique à n'importe qui.
+[00:46:37.000 -> 00:46:41.000] Tu peux imaginer un boulanger qui prend un whiteboard, qui dessine l'application qu'il veut,
+[00:46:41.000 -> 00:46:45.000] et l'agent qui lit le whiteboard et qui déjà a fait les specs, etc.
+[00:46:45.000 -> 00:46:47.000] On n'est pas si loin que ça.
+[00:46:47.000 -> 00:46:49.000] C'est les world models ?
+[00:46:49.000 -> 00:46:53.000] Franchement, c'est un peu différent.
+[00:46:53.000 -> 00:46:55.000] Il y a un peu de ça, non ?
+[00:46:55.000 -> 00:46:57.000] Je pense que c'est surtout l'interaction.
+[00:46:57.000 -> 00:47:02.000] Aujourd'hui, notre rôle en tant que tech, c'est que tu as un besoin métier, tu comprends, tu le transcrits, tu fais une spec.
+[00:47:03.000 -> 00:47:11.000] Si le métier, demain, arrive à exprimer son besoin à un système de développement comme on l'a aujourd'hui...
+[00:47:11.000 -> 00:47:15.000] On en revient au problème dont tu parlais tout à l'heure, c'est de passer de 2 à 0.
+[00:47:15.000 -> 00:47:17.000] Ah oui, exactement.
+[00:47:17.000 -> 00:47:19.000] Moi, j'ai des hauts, des bas.
+[00:47:19.000 -> 00:47:21.000] Des hauts, c'est trop, on peut faire plein de trucs.
+[00:47:21.000 -> 00:47:23.000] Et des bas, c'est quand je me dis ça.
+[00:47:23.000 -> 00:47:25.000] Le bas, c'est à quoi je vais servir demain.
+[00:47:25.000 -> 00:47:28.000] Je pense qu'en tant que développeur, si on se demande à quoi je vais servir demain,
+[00:47:28.000 -> 00:47:32.000] c'est-à-dire que derrière, il y a plein de gens qui vont se poser la question aussi d'ici quelques mois.
+[00:47:32.000 -> 00:47:34.000] Je pense que c'est déjà le cas.
+[00:47:34.000 -> 00:47:37.000] Je ne sais plus, j'ai vu un truc, mais c'était les designers en ce moment.
+[00:47:37.000 -> 00:47:39.000] Je pense que c'est un peu compliqué.
+[00:47:39.000 -> 00:47:42.000] Quand tu vois Figma, quand tu vois la courbe de Figma.
+[00:47:42.000 -> 00:47:44.000] Je pensais à ça directement.
+[00:47:44.000 -> 00:47:46.000] Et puis même les rôles de management.
+[00:47:46.000 -> 00:47:49.000] Je pense qu'il y a beaucoup de rôles qui se fusionnent.
+[00:47:49.000 -> 00:47:52.000] Moi, je n'ai jamais été à travailler sur d'autres périmètres métiers.
+[00:47:52.000 -> 00:47:54.000] Avant, c'était très segmenté.
+[00:47:54.000 -> 00:47:56.000] Maintenant qu'on est plus petit, c'est différent.
+[00:47:57.000 -> 00:47:59.000] J'en garde mes yeux partout.
+[00:47:59.000 -> 00:48:00.000] Je mets mes yeux partout.
+[00:48:00.000 -> 00:48:04.000] Je pense qu'à terme, tu auras de gros types de rôles.
+[00:48:04.000 -> 00:48:08.000] Des builders, des gens qui construisent des solutions à des problèmes.
+[00:48:08.000 -> 00:48:13.000] Et puis des gens qui sont plutôt spécialisés pour hacker la croissance, etc.
+[00:48:13.000 -> 00:48:15.000] Ça se limitera à ça.
+[00:48:15.000 -> 00:48:18.000] Demain, tu pourras imaginer que ton CEO code ton appli juste en comptant.
+[00:48:18.000 -> 00:48:20.000] Il pose une feature en prod et puis voilà.
+[00:48:20.000 -> 00:48:22.000] J'aimerais bien discuter avec toi si tu as déjà réfléchi.
+[00:48:22.000 -> 00:48:27.000] Il y a Cross Art, mais probablement on pourra regarder ça plus tard.
+[00:48:27.000 -> 00:48:28.000] Pour une autre session.
+[00:48:28.000 -> 00:48:30.000] Ça m'intéresserait énormément.
+[00:48:30.000 -> 00:48:33.000] Je parlais au départ d'Urban Sketchers.
+[00:48:33.000 -> 00:48:35.000] C'est des sujets qui sont très intéressants.
+[00:48:35.000 -> 00:48:38.000] J'avais écrit un billet de blog sur le passage à la photographie,
+[00:48:38.000 -> 00:48:39.000] qui était très intéressant.
+[00:48:39.000 -> 00:48:41.000] C'était plutôt sur tout ce qui était backslash,
+[00:48:41.000 -> 00:48:44.000] sur la manière dont les gens le percevaient.
+[00:48:44.000 -> 00:48:46.000] Il y a eu beaucoup de débats là-dessus.
+[00:48:46.000 -> 00:48:48.000] On fait beaucoup de dessins sur le vif.
+[00:48:48.000 -> 00:48:49.000] Urban Sketching, c'est ça ?
+[00:48:49.000 -> 00:48:50.000] Oui.
+[00:48:51.000 -> 00:48:54.000] Il y a des gens qui mixent ça avec de l'IA, etc.
+[00:48:54.000 -> 00:48:57.000] C'est très mal vu, mais on va en reparler.
+[00:48:57.000 -> 00:49:00.000] Ce qui m'intéresse le plus, c'est le mindset, la compétence,
+[00:49:00.000 -> 00:49:02.000] la façon de penser.
+[00:49:02.000 -> 00:49:04.000] J'avais écrit un truc aussi sur le laisser-aller,
+[00:49:04.000 -> 00:49:06.000] ce qu'on appelle le lâcher prise.
+[00:49:06.000 -> 00:49:09.000] Dans la peinture, par exemple, tu as la théorie.
+[00:49:09.000 -> 00:49:11.000] Et puis après, quand tu connais la théorie,
+[00:49:11.000 -> 00:49:13.000] quand tu l'as ingérée, tu peux te lâcher.
+[00:49:13.000 -> 00:49:15.000] Tu peux te lâcher et aller très loin, etc.
+[00:49:15.000 -> 00:49:17.000] Je trouve que c'est quelque chose qu'on est en train de vivre.
+[00:49:17.000 -> 00:49:19.000] Je le vis de plus en plus avec le code,
+[00:49:19.000 -> 00:49:21.000] parce qu'en fait, tu laisses aller.
+[00:49:21.000 -> 00:49:23.000] Si tu regardes le code qui est produit,
+[00:49:23.000 -> 00:49:24.000] c'est du lâcher prise.
+[00:49:24.000 -> 00:49:26.000] Il y a des gens qui ont beaucoup de mal à le faire.
+[00:49:26.000 -> 00:49:28.000] Je pense que c'est normal.
+[00:49:28.000 -> 00:49:30.000] Quand tu dis « qu'est-ce que je ferai demain ? »
+[00:49:30.000 -> 00:49:33.000] J'étais tellement fier des compétences acquises.
+[00:49:33.000 -> 00:49:35.000] Il y a un peu d'ego aussi derrière.
+[00:49:35.000 -> 00:49:36.000] Oui, beaucoup d'ego.
+[00:49:36.000 -> 00:49:37.000] Oui, beaucoup d'ego.
+[00:49:37.000 -> 00:49:38.000] Mais bon, gros débat.
+[00:49:38.000 -> 00:49:39.000] Très intéressant.
+[00:49:39.000 -> 00:49:40.000] On peut wrap-up.
+[00:49:40.000 -> 00:49:42.000] Merci à vous deux.
+[00:49:42.000 -> 00:49:44.000] C'était vraiment trop cool.
