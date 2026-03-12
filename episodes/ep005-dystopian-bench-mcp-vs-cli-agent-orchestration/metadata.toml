@@ -1,0 +1,31 @@
+[episode]
+number = 5
+title = "S01E05 — Dystopian bench, MCP vs. CLI, agent orchestration"
+slug = "s01e05-dystopian-bench-mcp-vs-cli-agent-orchestration"
+description = "Cinquième épisode — on parle de benchmarks dystopiques, MCP vs CLI pour les agents, et orchestration d'agents."
+tags = ["benchmarks", "mcp", "cli", "agent-orchestration", "ai-engineering"]
+category = "Technology"
+language = "fr"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=eN6MwkCTTyE"
+youtube_id = "eN6MwkCTTyE"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"

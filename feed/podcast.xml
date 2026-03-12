@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 04 Mar 2026 13:02:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 17:07:31 +0000</lastBuildDate>
     <itunes:author>Christophe Blefari &amp; Julien Hurault</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/media/cover.png"/>
@@ -17,11 +17,22 @@
       <itunes:email>julien.hurault+ai-eng-pod@sumeo.io</itunes:email>
     </itunes:owner>
     <item>
+      <title>S01E05 — Dystopian bench, MCP vs. CLI, agent orchestration</title>
+      <description>Cinquième épisode — on parle de benchmarks dystopiques, MCP vs CLI pour les agents, et orchestration d'agents.</description>
+      <guid isPermaLink="false">ep005-dystopian-bench-mcp-vs-cli-agent-orchestration</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep005-dystopian-bench-mcp-vs-cli-agent-orchestration/audio.mp3" length="96841196" type="audio/mpeg"/>
+      <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
+      <itunes:duration>01:07:14</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>S01E04 — Math Driven Spec, Computer agents (avec Benoit Pimpaud)</title>
       <description>Quatrième épisode avec Benoit Pimpaud — on parle de math-driven specs, computer agents (Perplexity), la troisième ère du développement logiciel, et vibe coding.</description>
       <guid isPermaLink="false">ep004-math-driven-spec-computer-agents-avec-benoit-pimpaud-ai-engi</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep004-math-driven-spec-computer-agents-avec-benoit-pimpaud-ai-engi/audio.mp3" length="48776300" type="audio/mpeg"/>
-      <pubDate>Wed, 04 Mar 2026 13:02:58 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
       <itunes:duration>00:33:52</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>4</itunes:episode>
@@ -32,7 +43,7 @@
       <description>Troisième épisode avec Alexis Blandin — on parle d'OpenClaw, du futur des métiers de la data, de la nouvelle constitution d'Anthropic, et des agents AI.</description>
       <guid isPermaLink="false">ep003-ai-engineering-podcast-openclaw-futur-des-métiers-de-la-data</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep003-ai-engineering-podcast-openclaw-futur-des-métiers-de-la-data/audio.mp3" length="71614124" type="audio/mpeg"/>
-      <pubDate>Wed, 04 Mar 2026 13:02:58 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
       <itunes:duration>00:49:43</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>3</itunes:episode>
@@ -43,7 +54,7 @@
       <description>Deuxième épisode de l'AI engineering podcast — on parle d'AI agents qui codent, du débat autour de Claude Code, la levée de fonds record d'Anthropic, et l'article "Something big is happening".</description>
       <guid isPermaLink="false">ep002-ai-engineering-podcast-ai-agents-coding-claude-code-devient</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep002-ai-engineering-podcast-ai-agents-coding-claude-code-devient/audio.mp3" length="64546000" type="audio/mpeg"/>
-      <pubDate>Wed, 04 Mar 2026 13:02:58 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
       <itunes:duration>00:44:49</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>2</itunes:episode>
