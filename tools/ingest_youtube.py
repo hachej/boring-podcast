@@ -35,6 +35,22 @@ except ImportError:
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 EPISODES_DIR = REPO_ROOT / "episodes"
+COOKIES_PATH = Path("/tmp/yt-cookies.txt")
+
+
+def ensure_cookies() -> list[str]:
+    """Fetch YouTube cookies from Vault and return yt-dlp args."""
+    if not COOKIES_PATH.exists():
+        result = subprocess.run(
+            ["bash", "-lc", "vault kv get -field=cookies_txt secret/agent/youtube"],
+            capture_output=True, text=True,
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            COOKIES_PATH.write_text(result.stdout)
+        else:
+            print("Warning: Could not fetch YouTube cookies from Vault", file=sys.stderr)
+            return []
+    return ["--cookies", str(COOKIES_PATH)]
 
 
 def slugify(text: str) -> str:
@@ -63,7 +79,7 @@ def fetch_video_info(url: str) -> dict:
     """Get video metadata from YouTube via yt-dlp."""
     print(f"Fetching video info...")
     result = subprocess.run(
-        ["yt-dlp", "--dump-json", "--no-download", url],
+        ["yt-dlp", *ensure_cookies(), "--dump-json", "--no-download", url],
         capture_output=True, text=True,
     )
     if result.returncode != 0:
@@ -77,7 +93,7 @@ def download_video(url: str, output_path: Path) -> None:
     print(f"Downloading video to {output_path.name}...")
     subprocess.run(
         [
-            "yt-dlp",
+            "yt-dlp", *ensure_cookies(),
             "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
             "--merge-output-format", "mp4",
             "-o", str(output_path),
@@ -92,7 +108,7 @@ def download_audio_only(url: str, output_path: Path) -> None:
     print(f"Downloading audio to {output_path.name}...")
     subprocess.run(
         [
-            "yt-dlp",
+            "yt-dlp", *ensure_cookies(),
             "-x", "--audio-format", "mp3",
             "--audio-quality", "192K",
             "-o", str(output_path),
