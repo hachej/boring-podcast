@@ -1,0 +1,31 @@
+[episode]
+number = 9
+title = "Claude Code leaked (on explique tout)"
+slug = "claude-code-leaked-on-explique-tout"
+description = "Claude Code leaked - on explique tout. Analyse du leak, les implications, et ce que ça révèle sur l'architecture de Claude Code."
+tags = []
+category = "Technology"
+language = "fr"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=XcXnDnbM894"
+youtube_id = "XcXnDnbM894"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"

@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 12 Mar 2026 17:07:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 17:31:13 +0000</lastBuildDate>
     <itunes:author>Christophe Blefari &amp; Julien Hurault</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/media/cover.png"/>
@@ -17,12 +17,125 @@
       <itunes:email>julien.hurault+ai-eng-pod@sumeo.io</itunes:email>
     </itunes:owner>
     <item>
+      <title>Claude Code leaked (on explique tout)</title>
+      <description>Claude Code leaked - on explique tout. Analyse du leak, les implications, et ce que ça révèle sur l'architecture de Claude Code.</description>
+      <content:encoded># Claude Code leaked (on explique tout) - Show Notes
+
+# Claude Code Leaked (on explique tout) - Show Notes
+
+## Episode Summary
+
+In this explosive episode, hosts Julien and guest discuss the shocking leak of Anthropic's Claude Code source code via an NPM registry mishap. The leak exposed 512,000 lines of frontend code, triggering a cascade of events including GitHub DMCA takedowns, a viral Rust rewrite that became the fastest-starred repo in GitHub history, and revealing insights into how AI coding assistants actually work. They break down the timeline, analyze what the code reveals about Claude's architecture, and explore the ironic copyright implications for a company built on training AI with internet data.
+
+## Key Topics Discussed
+
+- **The Claude Code leak timeline**: From the 4am NPM publication mishap to Anthropic's DMCA response
+- **Ultraworker/CloudCode**: The viral Rust rewrite using Codex that gained 141,000+ GitHub stars in days
+- **Code quality debate**: Boris Cherny's defense of "messy" AI-generated code and whether traditional code quality standards still matter
+- **Feature flags and hidden capabilities**: Anthropic "ant" user types getting enhanced features and verification
+- **Technical architecture**: Tool system breakdown showing surprisingly few tools (read/write, search, bash, MCP, sub-agents)
+- **Token efficiency vs quality**: Why users switch between Claude Code and Codex based on limits and output
+- **The copyright irony**: Companies trained on stolen internet data filing copyright claims
+- **Supply chain security**: Axios attack and the continuing vulnerability of the open source ecosystem
+
+## Notable Quotes
+
+&gt; **On the leak's impact**: "The thing I think is interesting is that the agents are super simple and the harnesses are all the same... It's the models that make the difference." - [~45:00]
+
+&gt; **On code quality evolution**: "Maybe the good practices or the good way of writing code will completely change now since it's not us who have to maintain it... this paradigm is changing so maybe we don't need to have such a clean code because it's not us who are going to modify it." - [~32:00]
+
+&gt; **On the copyright irony**: "Companies that stole the internet to train models complain when someone takes back their stuff that they made a mistake on... the notion of copyright on AI it only goes in one direction - we steal and then we privatize." - [~35:00]
+
+## Resources/Links Mentioned
+
+- **CloudCode NPM leak**: Version 2.1.88 (now deleted) contained full source in CLI.map.js file
+- **GitHub DMCA repo**: 95 repositories received takedown notices from Anthropic
+- **Ultraworker/CloudCode**: The viral Rust rewrite (currently ownership transfer in progress)
+- **CloudCode Unpacked website**: Visual tool explorer showing architecture, patterns, and tool systems
+- **Wall Street Journal article**: Coverage of Anthropic's response to the leak
+- **Axios supply chain attack**: Another major NPM security incident this week
+- **Boris Cherny's response**: Lead of Claude Code's post-mortem on the incident
+
+## Guest Bio
+
+This episode features regular co-host Julien discussing the week's developments in AI engineering with the show's primary host.
+
+---
+
+*AI Engineering Podcast - Episode 10 | Subscribe on Spotify, Apple Podcasts, and YouTube*</content:encoded>
+      <guid isPermaLink="false">ep009-claude-code-leaked-on-explique-tout</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep009-claude-code-leaked-on-explique-tout/audio.mp3" length="56054115" type="audio/mpeg"/>
+      <pubDate>Thu, 02 Apr 2026 17:31:14 +0000</pubDate>
+      <itunes:duration>00:38:55</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Une librairie LLM attaquée vole tous les credentials?</title>
+      <description>Une librairie LLM attaquée vole tous les credentials? On en parle dans cet épisode.</description>
+      <content:encoded># Une librairie LLM attaquée vole tous les credentials? - Show Notes
+
+# Une librairie LLM attaquée vole tous les credentials?
+
+## Episode Summary
+
+Dans cet épisode, l'équipe discute des dernières actualités de l'écosystème AI avec Alexis, notamment la récente attaque par chaîne d'approvisionnement sur LightLLM qui a exfiltré les clés API des utilisateurs. Ils explorent également l'évolution rapide des fonctionnalités d'Anthropic Claude, les limites actuelles des agents IA en production, et débattent de l'avenir de l'orchestration autonome des agents. Une conversation franche sur les défis réels de mise en production des systèmes IA et les risques de sécurité émergents.
+
+## Key Topics Discussed
+
+- **Attaque de sécurité sur LightLLM** - Compromission du mainteneur et injection de code malveillant exfiltrant les variables d'environnement et clés API
+- **Nouvelles fonctionnalités Anthropic Claude** - Scheduler pour Claude Code, automatisation de tâches récurrentes, remplacement d'infrastructures Airflow
+- **Défis de production des agents IA** - Les 5-10% de cas limites difficiles à gérer, problèmes de debugging, edge cases complexes
+- **ArcAGI 3 benchmark** - Nouvelle version de puzzles où les modèles IA obtiennent 0% vs 99% pour les humains, démontrant les limites du raisonnement
+- **Orchestration et refresh rate des agents** - Questions autour de la fréquence d'exécution optimale des agents autonomes
+- **Stratégie OpenAI vs Anthropic** - Analyse critique des multiples initiatives d'OpenAI et focus produit d'Anthropic
+- **Fine-tuning et spécialisation** - Tendance des entreprises à créer des modèles spécialisés pour leurs cas d'usage (call centers, etc.)
+- **Stack Overflow pour agents IA** - Proposition de protocole Mozilla pour partager les solutions entre agents
+- **Risques de skill poisoning** - Dangers potentiels de partage de compétences malveillantes entre agents
+
+## Notable Quotes
+
+&gt; "Opérationnellement, je pense qu'il n'y a pas un jour où il n'y a pas quelqu'un qui annonce quelque chose. Aujourd'hui, j'essaie de regarder moins ce qui se passe ailleurs et je reste principalement sur la roadmap d'Anthropic."
+
+&gt; "C'est l'impression que j'ai, que tout ce qui est hard-codé, ça a de moins en moins de sens... C'est un peu le N8N de 2026."
+
+&gt; "Je pense que c'est ce qui nous reste, ces 5-10%. C'est comprendre les choses. Il leur manque le bon sens. C'est tellement cool de voir ça."
+
+&gt; "Peut-être que l'hallucination, c'est pas une feature qu'on sous-estime? On essaie tellement de les concentrer, de les bloquer dans nos canvas de workflow..."
+
+## Resources/Links Mentioned
+
+- **Claude Code** - Scheduler et nouvelles fonctionnalités d'automatisation
+- **LightLLM** - Wrapper Python pour providers LLM (victime d'attaque de sécurité)
+- **ArcAGI 3** - Nouveau benchmark de raisonnement par François Chollet
+- **Mistral VoxTail** - Modèle Text-to-Speech OpenWeight (4 milliards de paramètres)
+- **Stack Overflow for AI Coding Agents** - Protocole proposé par Mozilla
+- **DSPY** - Framework utilisant LightLLM
+- **Artifactory** - Solution de gestion de dépendances pour entreprises
+
+## Guest Bio
+
+**Alexis** - Praticien de l'IA engineering qui a participé à plusieurs épisodes du podcast. Il travaille sur l'intégration de solutions IA en entreprise, notamment avec Claude Code, et a une expérience significative dans l'automatisation de workflows et la gestion d'agents en production. Il partage régulièrement ses retours d'expérience sur les défis pratiques de mise en production de systèmes IA.
+
+---
+
+*Note: Cet épisode contient des informations critiques sur la sécurité des dépendances IA - essentiel pour tout développeur utilisant des librairies comme LightLLM.*</content:encoded>
+      <guid isPermaLink="false">ep008-une-librairie-llm-attaquée-vole-tous-les-credentials</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep008-une-librairie-llm-attaquée-vole-tous-les-credentials/audio.mp3" length="46235626" type="audio/mpeg"/>
+      <pubDate>Thu, 02 Apr 2026 17:31:14 +0000</pubDate>
+      <itunes:duration>00:32:06</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>S01E05 — Dystopian bench, MCP vs. CLI, agent orchestration</title>
       <description>Cinquième épisode — on parle de benchmarks dystopiques, MCP vs CLI pour les agents, et orchestration d'agents.</description>
       <guid isPermaLink="false">ep005-dystopian-bench-mcp-vs-cli-agent-orchestration</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep005-dystopian-bench-mcp-vs-cli-agent-orchestration/audio.mp3" length="96841196" type="audio/mpeg"/>
-      <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
-      <itunes:duration>01:07:14</itunes:duration>
+      <pubDate>Thu, 02 Apr 2026 17:31:14 +0000</pubDate>
+      <itunes:duration>01:07:15</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>5</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
@@ -32,7 +145,7 @@
       <description>Quatrième épisode avec Benoit Pimpaud — on parle de math-driven specs, computer agents (Perplexity), la troisième ère du développement logiciel, et vibe coding.</description>
       <guid isPermaLink="false">ep004-math-driven-spec-computer-agents-avec-benoit-pimpaud-ai-engi</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep004-math-driven-spec-computer-agents-avec-benoit-pimpaud-ai-engi/audio.mp3" length="48776300" type="audio/mpeg"/>
-      <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
+      <pubDate>Thu, 02 Apr 2026 17:31:14 +0000</pubDate>
       <itunes:duration>00:33:52</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>4</itunes:episode>
@@ -43,7 +156,7 @@
       <description>Troisième épisode avec Alexis Blandin — on parle d'OpenClaw, du futur des métiers de la data, de la nouvelle constitution d'Anthropic, et des agents AI.</description>
       <guid isPermaLink="false">ep003-ai-engineering-podcast-openclaw-futur-des-métiers-de-la-data</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep003-ai-engineering-podcast-openclaw-futur-des-métiers-de-la-data/audio.mp3" length="71614124" type="audio/mpeg"/>
-      <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
+      <pubDate>Thu, 02 Apr 2026 17:31:13 +0000</pubDate>
       <itunes:duration>00:49:43</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>3</itunes:episode>
@@ -54,7 +167,7 @@
       <description>Deuxième épisode de l'AI engineering podcast — on parle d'AI agents qui codent, du débat autour de Claude Code, la levée de fonds record d'Anthropic, et l'article "Something big is happening".</description>
       <guid isPermaLink="false">ep002-ai-engineering-podcast-ai-agents-coding-claude-code-devient</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep002-ai-engineering-podcast-ai-agents-coding-claude-code-devient/audio.mp3" length="64546000" type="audio/mpeg"/>
-      <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
+      <pubDate>Thu, 02 Apr 2026 17:31:13 +0000</pubDate>
       <itunes:duration>00:44:49</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>2</itunes:episode>

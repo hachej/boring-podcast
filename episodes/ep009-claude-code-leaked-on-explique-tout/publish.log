@@ -1,0 +1,9 @@
+[2026-04-02 17:27:51 UTC] audio                SKIP       audio.mp3 already exists
+[2026-04-02 17:27:51 UTC] transcript           START      Transcribing with Whisper
+[2026-04-02 17:30:02 UTC] transcript           DONE       37 KB
+[2026-04-02 17:30:02 UTC] show_notes           START      Generating with Claude
+[2026-04-02 17:30:24 UTC] show_notes           DONE       3 KB
+[2026-04-02 17:30:38 UTC] rss                  START      Updating RSS feed
+[2026-04-02 17:30:39 UTC] rss                  FAIL       Illegal character '\n' (at line 5, column 82)
+[2026-04-02 17:31:13 UTC] rss                  START      Updating RSS feed
+[2026-04-02 17:31:14 UTC] rss                  DONE       https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/feed/podcast.xml
