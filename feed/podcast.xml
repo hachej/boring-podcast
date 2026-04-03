@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 03 Apr 2026 08:03:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 09:42:06 +0000</lastBuildDate>
     <itunes:author>Christophe Blefari &amp; Julien Hurault</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/media/cover.png"/>
@@ -32,7 +32,7 @@
       <description>Deuxième épisode de l'AI engineering podcast — on parle d'AI agents qui codent, du débat autour de Claude Code, la levée de fonds record d'Anthropic, et l'article "Something big is happening".</description>
       <guid isPermaLink="false">ep002-ai-engineering-podcast-ai-agents-coding-claude-code-devient</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep002-ai-engineering-podcast-ai-agents-coding-claude-code-devient/audio.mp3" length="64546000" type="audio/mpeg"/>
-      <pubDate>Fri, 03 Apr 2026 08:03:11 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
       <itunes:duration>00:44:49</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>2</itunes:episode>
@@ -43,7 +43,7 @@
       <description>Troisième épisode avec Alexis Blandin — on parle d'OpenClaw, du futur des métiers de la data, de la nouvelle constitution d'Anthropic, et des agents AI.</description>
       <guid isPermaLink="false">ep003-ai-engineering-podcast-openclaw-futur-des-métiers-de-la-data</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep003-ai-engineering-podcast-openclaw-futur-des-métiers-de-la-data/audio.mp3" length="71614124" type="audio/mpeg"/>
-      <pubDate>Fri, 03 Apr 2026 08:03:11 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
       <itunes:duration>00:49:43</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>3</itunes:episode>
@@ -54,7 +54,7 @@
       <description>Quatrième épisode avec Benoit Pimpaud — on parle de math-driven specs, computer agents (Perplexity), la troisième ère du développement logiciel, et vibe coding.</description>
       <guid isPermaLink="false">ep004-math-driven-spec-computer-agents-avec-benoit-pimpaud-ai-engi</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep004-math-driven-spec-computer-agents-avec-benoit-pimpaud-ai-engi/audio.mp3" length="48776300" type="audio/mpeg"/>
-      <pubDate>Fri, 03 Apr 2026 08:03:11 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
       <itunes:duration>00:33:52</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>4</itunes:episode>
@@ -65,7 +65,7 @@
       <description>Cinquième épisode — on parle de benchmarks dystopiques, MCP vs CLI pour les agents, et orchestration d'agents.</description>
       <guid isPermaLink="false">ep005-dystopian-bench-mcp-vs-cli-agent-orchestration</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep005-dystopian-bench-mcp-vs-cli-agent-orchestration/audio.mp3" length="96841196" type="audio/mpeg"/>
-      <pubDate>Fri, 03 Apr 2026 08:03:11 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
       <itunes:duration>01:07:14</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>5</itunes:episode>
@@ -76,7 +76,7 @@
       <description>This week we are joined by Hussain Sultan, ex VP Engineering at Voltron Data (Ibis, Arrow, etc.)! Data engineering in the age of AI, xorq data pipelines using CLI.</description>
       <guid isPermaLink="false">ep006-data-engineering-at-the-age-of-ai-xorq-etl-orchestration</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep006-data-engineering-at-the-age-of-ai-xorq-etl-orchestration/audio.mp3" length="82954412" type="audio/mpeg"/>
-      <pubDate>Fri, 03 Apr 2026 08:03:11 +0000</pubDate>
+      <pubDate>Fri, 27 Mar 2026 13:23:49 +0000</pubDate>
       <itunes:duration>00:57:36</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>6</itunes:episode>
@@ -135,7 +135,7 @@ No guest in this episode - news discussion between regular co-hosts Julien and h
 *Note: This episode was conducted in French. Previous episode featured Hussein from XORC in English.*</content:encoded>
       <guid isPermaLink="false">ep007-cursor-composer-2-agentmail-design-bash-tools-et-le-futur-de</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep007-cursor-composer-2-agentmail-design-bash-tools-et-le-futur-de/audio.mp3" length="50181740" type="audio/mpeg"/>
-      <pubDate>Fri, 03 Apr 2026 08:03:11 +0000</pubDate>
+      <pubDate>Fri, 27 Mar 2026 13:23:49 +0000</pubDate>
       <itunes:duration>00:34:50</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>7</itunes:episode>
@@ -193,7 +193,7 @@ Dans cet épisode, l'équipe discute des dernières actualités de l'écosystèm
 *Note: Cet épisode contient des informations critiques sur la sécurité des dépendances IA - essentiel pour tout développeur utilisant des librairies comme LightLLM.*</content:encoded>
       <guid isPermaLink="false">ep008-une-librairie-llm-attaquée-vole-tous-les-credentials</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep008-une-librairie-llm-attaquée-vole-tous-les-credentials/audio.mp3" length="46235626" type="audio/mpeg"/>
-      <pubDate>Fri, 03 Apr 2026 08:03:11 +0000</pubDate>
+      <pubDate>Thu, 02 Apr 2026 16:15:27 +0000</pubDate>
       <itunes:duration>00:32:06</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>8</itunes:episode>
@@ -248,7 +248,7 @@ This episode features regular co-host Julien discussing the week's developments 
 *AI Engineering Podcast - Episode 10 | Subscribe on Spotify, Apple Podcasts, and YouTube*</content:encoded>
       <guid isPermaLink="false">ep009-claude-code-leaked-on-explique-tout</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep009-claude-code-leaked-on-explique-tout/audio.mp3" length="56054115" type="audio/mpeg"/>
-      <pubDate>Fri, 03 Apr 2026 08:03:11 +0000</pubDate>
+      <pubDate>Thu, 02 Apr 2026 17:31:14 +0000</pubDate>
       <itunes:duration>00:38:55</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>9</itunes:episode>

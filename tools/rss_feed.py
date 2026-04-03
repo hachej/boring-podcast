@@ -1,6 +1,8 @@
 """Generate and update podcast RSS feed for Spotify + Apple Podcasts distribution."""
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
+import re
 
 try:
     import tomllib
@@ -21,6 +23,61 @@ def load_podcast_config() -> dict:
         )
     with open(FEED_CONFIG_PATH, "rb") as f:
         return tomllib.load(f)
+
+
+def load_existing_pub_dates() -> dict[str, datetime]:
+    """Load existing pubDate values from the current RSS feed by episode guid."""
+    if not FEED_OUTPUT_PATH.exists():
+        return {}
+
+    xml = FEED_OUTPUT_PATH.read_text()
+    matches = re.findall(
+        r"<item>.*?<guid[^>]*>(.*?)</guid>.*?<pubDate>(.*?)</pubDate>.*?</item>",
+        xml,
+        re.S,
+    )
+
+    existing_dates = {}
+    for guid, pub_date in matches:
+        try:
+            existing_dates[guid] = parsedate_to_datetime(pub_date)
+        except Exception:
+            continue
+    return existing_dates
+
+
+def infer_pub_date(ep_dir: Path, meta: dict, existing_pub_dates: dict[str, datetime]) -> datetime:
+    """Resolve a stable publication date for an episode."""
+    configured_date = meta.get("publish", {}).get("date")
+    if configured_date:
+        return datetime.fromisoformat(configured_date)
+
+    existing_date = existing_pub_dates.get(ep_dir.name)
+    if existing_date:
+        return existing_date
+
+    log_path = ep_dir / "publish.log"
+    if log_path.exists():
+        for line in log_path.read_text().splitlines():
+            if " rss " in line and " DONE " in line:
+                match = re.match(r"\[(.*?) UTC\]", line)
+                if match:
+                    return datetime.strptime(
+                        match.group(1) + " UTC", "%Y-%m-%d %H:%M:%S UTC"
+                    ).replace(tzinfo=timezone.utc)
+
+    candidate_paths = [
+        ep_dir / "audio.mp3",
+        ep_dir / "show-notes.md",
+        ep_dir / "transcript.md",
+        ep_dir / "metadata.toml",
+    ]
+    existing_candidates = [p for p in candidate_paths if p.exists()]
+    if existing_candidates:
+        oldest_mtime = min(p.stat().st_mtime for p in existing_candidates)
+        return datetime.fromtimestamp(oldest_mtime, tz=timezone.utc)
+
+    return datetime.now(timezone.utc)
 
 
 def update_rss_feed(audio_path: Path, episode_metadata: dict) -> str:
@@ -70,6 +127,7 @@ def update_rss_feed(audio_path: Path, episode_metadata: dict) -> str:
     episode_entries = []
     seen_numbers = set()
     base_url = pc.get("media_base_url", pc["website"])
+    existing_pub_dates = load_existing_pub_dates()
 
     for ep_dir in episode_dirs:
         meta_path = ep_dir / "metadata.toml"
@@ -131,11 +189,7 @@ def update_rss_feed(audio_path: Path, episode_metadata: dict) -> str:
             fe.content(show_notes.read_text(), type="text")
 
         # Publication date
-        pub_date = meta.get("publish", {}).get("date")
-        if pub_date:
-            fe.published(pub_date)
-        else:
-            fe.published(datetime.now(timezone.utc))
+        fe.published(infer_pub_date(ep_dir, meta, existing_pub_dates))
 
         # Podcast-specific
         podcast_meta = meta.get("podcast", {})

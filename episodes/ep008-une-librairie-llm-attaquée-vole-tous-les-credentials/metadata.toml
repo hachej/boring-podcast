@@ -16,6 +16,7 @@ youtube_id = "lrPhfxQ_zFM"
 video = "video.mp4"
 
 [publish]
+date = "2026-04-02T16:15:27+00:00"
 youtube = false
 spotify = true
 apple = true
