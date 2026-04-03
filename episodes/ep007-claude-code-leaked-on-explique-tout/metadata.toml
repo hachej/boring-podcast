@@ -1,0 +1,31 @@
+[episode]
+number = 7
+title = "Claude Code leaked (on explique tout)"
+slug = "claude-code-leaked-on-explique-tout"
+description = "DUPLICATE - see ep009"
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=XcXnDnbM894"
+youtube_id = "XcXnDnbM894"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"
