@@ -1,0 +1,8 @@
+[2026-03-27 13:21:12 UTC] transcript           START      Transcribing with Whisper
+[2026-03-27 13:22:59 UTC] transcript           DONE       35 KB
+[2026-03-27 13:22:59 UTC] show_notes           START      Generating with Claude
+[2026-03-27 13:23:28 UTC] show_notes           DONE       4 KB
+[2026-03-27 13:23:28 UTC] rss                  START      Updating RSS feed
+[2026-03-27 13:23:28 UTC] rss                  FAIL       Illegal character '\n' (at line 5, column 132)
+[2026-03-27 13:23:49 UTC] rss                  START      Updating RSS feed
+[2026-03-27 13:23:49 UTC] rss                  DONE       https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/feed/podcast.xml

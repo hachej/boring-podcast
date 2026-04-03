@@ -67,7 +67,10 @@ def update_rss_feed(audio_path: Path, episode_metadata: dict) -> str:
         key=lambda d: d.name
     )
 
-    published_count = 0
+    episode_entries = []
+    seen_numbers = set()
+    base_url = pc.get("media_base_url", pc["website"])
+
     for ep_dir in episode_dirs:
         meta_path = ep_dir / "metadata.toml"
         if not meta_path.exists():
@@ -78,12 +81,31 @@ def update_rss_feed(audio_path: Path, episode_metadata: dict) -> str:
 
         ep = meta["episode"]
         ep_audio = ep_dir / "audio.mp3"
-
         if not ep_audio.exists():
             continue
 
+        episode_entries.append((ep.get("number"), ep_dir, meta, ep_audio))
+
+    # Prefer the latest directory for each episode number and keep numbered
+    # episodes ordered 9..1 in the published feed.
+    episode_entries.sort(
+        key=lambda item: (
+            item[0] is None,
+            -(item[0] or 0),
+            item[1].name,
+        )
+    )
+
+    published_count = 0
+    for episode_number, ep_dir, meta, ep_audio in episode_entries:
+        if episode_number is not None and episode_number in seen_numbers:
+            continue
+
+        ep = meta["episode"]
+        if episode_number is not None:
+            seen_numbers.add(episode_number)
+
         # Build audio URL from base_url + episode slug
-        base_url = pc.get("media_base_url", pc["website"])
         audio_url = f"{base_url}/episodes/{ep_dir.name}/audio.mp3"
         file_size = str(ep_audio.stat().st_size)
 

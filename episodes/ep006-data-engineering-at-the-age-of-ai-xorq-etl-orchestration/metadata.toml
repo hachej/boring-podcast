@@ -1,0 +1,31 @@
+[episode]
+number = 6
+title = "Data engineering at the age of AI (xorq, ETL, orchestration)"
+slug = "data-engineering-at-the-age-of-ai-xorq-etl-orchestration"
+description = "This week we are joined by Hussain Sultan, ex VP Engineering at Voltron Data (Ibis, Arrow, etc.)! Data engineering in the age of AI, xorq data pipelines using CLI."
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=4pW64acuSP8"
+youtube_id = "4pW64acuSP8"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"
