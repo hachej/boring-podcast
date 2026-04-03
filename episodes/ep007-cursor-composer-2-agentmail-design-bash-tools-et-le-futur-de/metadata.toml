@@ -1,0 +1,31 @@
+[episode]
+number = 7
+title = "Cursor Composer 2, AgentMail, design bash tools et le futur des warehouses"
+slug = "cursor-composer-2-agentmail-design-bash-tools-et-le-futur-de"
+description = "Nouvel épisode de l'AI engineering podcast: Cursor Composer 2, AgentMail, design bash tools et le futur des warehouses."
+tags = []
+category = "Technology"
+language = "fr"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=6paVqspy6aY"
+youtube_id = "6paVqspy6aY"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"
