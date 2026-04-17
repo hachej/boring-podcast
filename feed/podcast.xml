@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 03 Apr 2026 09:42:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 14:55:39 +0000</lastBuildDate>
     <itunes:author>Christophe Blefari &amp; Julien Hurault</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/media/cover.png"/>
@@ -66,7 +66,7 @@
       <guid isPermaLink="false">ep005-dystopian-bench-mcp-vs-cli-agent-orchestration</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep005-dystopian-bench-mcp-vs-cli-agent-orchestration/audio.mp3" length="96841196" type="audio/mpeg"/>
       <pubDate>Thu, 12 Mar 2026 17:07:31 +0000</pubDate>
-      <itunes:duration>01:07:14</itunes:duration>
+      <itunes:duration>01:07:15</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>5</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
@@ -252,6 +252,68 @@ This episode features regular co-host Julien discussing the week's developments 
       <itunes:duration>00:38:55</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Que devient dbt quand l’IA écrit le code ? (and news)</title>
+      <description>Comment l'IA impacte dbt et les équipes data, Code Mode Cloudflare, et quoi de neuf chez Anthropic.</description>
+      <content:encoded># Que devient dbt quand l’IA écrit le code ? (and news) - Show Notes
+
+# Show Notes: Que devient dbt quand l'IA écrit le code ? (and news)
+
+## Episode Summary
+
+In this two-part episode, we explore how AI is transforming analytics engineering with Benoît Périgaud from dbt Labs, who shares insights on AI-powered code generation, the future of dbt, and whether traditional data skills will remain relevant. The second half covers the latest AI and data industry news, including Anthropic's Mythos release, managed agents, and the convergence of agent architectures.
+
+## Key Topics Discussed
+
+### Part 1: AI &amp; dbt with Benoît Périgaud
+- **AI integration at dbt Labs**: Skills engine, MCP server, and dbt Index for agent optimization
+- **Token efficiency challenges**: Managing context windows for large dbt projects (1000+ models)
+- **The future of analytics engineering**: Will agents replace the need to learn dbt?
+- **Framework advantages**: Why agents prefer using frameworks like dbt over writing raw SQL
+- **Benchmarking AI performance**: The 8Bench Analytics Engineering Benchmark and its limitations
+- **Business context problem**: The missing piece in agent-generated analytics code
+
+### Part 2: Industry News
+- **Anthropic's Mythos model**: $25/million tokens, 5x price increase, cybersecurity focus, and controversy
+- **Managed Agents**: Anthropic's new architecture for hosting agents with virtualized components
+- **MCP vs CLI debate**: Token optimization strategies and implementation best practices
+- **Cloudflare's approach**: Search and Execute tools instead of 2,600 API endpoints
+- **Sandbox evolution**: The concept of user-specific runtimes embedded in applications
+- **DuckLake V1 release** and other data ecosystem updates
+
+## Notable Quotes
+
+&gt; "Most frontend models know how to write dbt... But what they know less is the process—how to think about creating a model." - Benoît Périgaud
+
+&gt; "Ruby on Rails is doing a revival because agents are really good at using frameworks... it uses a lot less tokens than doing it from scratch." - Benoît on why dbt will remain relevant
+
+&gt; "The intelligence wasn't scaffolding a fresh app—it was understanding an environment that is already stateful and using code as a mechanism to interact with it." - Discussing Cloudflare's sandbox philosophy
+
+## Resources &amp; Links Mentioned
+
+- **dbt Tools**: dbt Skills, MCP Server, dbt Index (upcoming)
+- **Benchmarks**: [8Bench](https://8bench.com) - Analytics Engineering Benchmark
+- **Cloudflare Talk**: Sunil Pai's presentation at AI Engineer Europe on MCP optimization
+- **Anthropic releases**: Mythos model, Advisor tool, Managed Agents, auto-approval mode
+- **Google Gemma 2**: New open-weight multimodal model for edge devices
+- **DuckLake V1**: Stable release with in-memory caching
+- **State of Analytics Engineering**: Annual report from dbt Labs (released during recording)
+
+## Guest Bio
+
+**Benoît Périgaud** works on the Developer Experience team at dbt Labs, where he's spent four years building AI integrations for the platform. His recent projects include the dbt Skills engine, MCP server implementation, semantic layer benchmarks, and the upcoming dbt Index feature designed to optimize agent interactions with large dbt projects.
+
+---
+
+*Episode features two segments: AI/dbt discussion (beginning) and industry news roundup (second half). Use chapter markers to skip to your preferred section.*</content:encoded>
+      <guid isPermaLink="false">ep010-que-devient-dbt-quand-lia-écrit-le-code-and-news</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep010-que-devient-dbt-quand-lia-écrit-le-code-and-news/audio.mp3" length="82203731" type="audio/mpeg"/>
+      <pubDate>Fri, 17 Apr 2026 14:45:14 +0000</pubDate>
+      <itunes:duration>00:57:05</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>10</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>

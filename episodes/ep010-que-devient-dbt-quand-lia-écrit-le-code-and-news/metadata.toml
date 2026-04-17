@@ -1,0 +1,31 @@
+[episode]
+number = 10
+title = "Que devient dbt quand l’IA écrit le code ? (and news)"
+slug = "que-devient-dbt-quand-lia-écrit-le-code-and-news"
+description = "Comment l'IA impacte dbt et les équipes data, Code Mode Cloudflare, et quoi de neuf chez Anthropic."
+tags = []
+category = "Technology"
+language = "fr"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=cIkj6RZGsos"
+youtube_id = "cIkj6RZGsos"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"

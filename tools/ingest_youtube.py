@@ -39,7 +39,7 @@ COOKIES_PATH = Path("/tmp/yt-cookies.txt")
 
 
 def ensure_cookies() -> list[str]:
-    """Fetch YouTube cookies from Vault and return yt-dlp args."""
+    """Fetch YouTube cookies from Vault and return yt-dlp args (cookies + JS runtime)."""
     if not COOKIES_PATH.exists():
         result = subprocess.run(
             ["bash", "-lc", "vault kv get -field=cookies_txt secret/agent/youtube"],
@@ -49,8 +49,8 @@ def ensure_cookies() -> list[str]:
             COOKIES_PATH.write_text(result.stdout)
         else:
             print("Warning: Could not fetch YouTube cookies from Vault", file=sys.stderr)
-            return []
-    return ["--cookies", str(COOKIES_PATH)]
+            return ["--js-runtimes", "node"]
+    return ["--cookies", str(COOKIES_PATH), "--js-runtimes", "node"]
 
 
 def slugify(text: str) -> str:
