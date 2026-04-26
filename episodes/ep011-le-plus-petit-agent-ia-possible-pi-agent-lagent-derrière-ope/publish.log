@@ -1,0 +1,7 @@
+[2026-04-26 20:05:58 UTC] audio                SKIP       audio.mp3 already exists
+[2026-04-26 20:05:58 UTC] transcript           START      Transcribing with Whisper
+[2026-04-26 20:09:32 UTC] transcript           DONE       58 KB
+[2026-04-26 20:09:32 UTC] show_notes           START      Generating with Claude
+[2026-04-26 20:10:01 UTC] show_notes           DONE       4 KB
+[2026-04-26 20:10:01 UTC] rss                  START      Updating RSS feed
+[2026-04-26 20:10:03 UTC] rss                  DONE       https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/feed/podcast.xml

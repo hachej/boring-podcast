@@ -1,0 +1,31 @@
+[episode]
+number = 11
+title = "Le plus petit agent IA possible — pi Agent (l'agent derrière OpenClaw)"
+slug = "le-plus-petit-agent-ia-possible-pi-agent-lagent-derrière-ope"
+description = "Dans cette vidéo on réagit à la vidéo \"Building PI in a Word of Slop\" : https://www.youtube.com/watch?v=RjfbvDXpFls"
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=1875j4KgHIA"
+youtube_id = "1875j4KgHIA"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"
