@@ -1,0 +1,34 @@
+[2026-05-04 16:14:15 UTC] transcript           START      Transcribing with Whisper
+[2026-05-04 16:14:17 UTC] transcript           FAIL       Failed to get OpenAI key from Vault: Error making API request.
+
+URL: GET http://127.0.0.1:8200/v1/sys/internal/ui/mounts/secret/agent/openai
+Code: 403. Errors:
+
+* 2 errors occurred:
+	* permission denied
+	* invalid token
+
+
+
+[2026-05-04 18:40:13 UTC] transcript           START      Transcribing with Whisper
+[2026-05-04 18:40:15 UTC] transcript           FAIL       Failed to get OpenAI key from Vault: Error making API request.
+
+URL: GET http://127.0.0.1:8200/v1/sys/internal/ui/mounts/secret/agent/openai
+Code: 403. Errors:
+
+* 2 errors occurred:
+	* permission denied
+	* invalid token
+
+
+
+[2026-05-04 18:40:32 UTC] transcript           START      Transcribing with Whisper
+[2026-05-04 18:40:42 UTC] transcript           FAIL       Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[2026-05-04 18:55:02 UTC] transcript           START      Transcribing with Whisper
+[2026-05-04 18:55:05 UTC] transcript           FAIL       Error code: 400 - {'error': {'message': 'No number after minus sign in JSON at position 1 (line 1 column 2)', 'code': 400}}
+[2026-05-04 18:56:00 UTC] transcript           START      Transcribing with Whisper
+[2026-05-04 18:56:12 UTC] transcript           DONE       31 KB
+[2026-05-04 18:56:16 UTC] show_notes           START      Generating with Claude
+[2026-05-04 18:56:39 UTC] show_notes           DONE       3 KB
+[2026-05-04 18:56:42 UTC] rss                  START      Updating RSS feed
+[2026-05-04 18:56:44 UTC] rss                  DONE       https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/feed/podcast.xml

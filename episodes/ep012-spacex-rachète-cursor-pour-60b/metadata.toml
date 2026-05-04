@@ -1,0 +1,31 @@
+[episode]
+number = 12
+title = "SpaceX rachète Cursor pour $60b?"
+slug = "spacex-rachète-cursor-pour-60b"
+description = "SpaceX rachète Cursor pour $60b? On discute aussi de Talkie LM et des deals Anthropic."
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=H2_qIHJkCDA"
+youtube_id = "H2_qIHJkCDA"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"
