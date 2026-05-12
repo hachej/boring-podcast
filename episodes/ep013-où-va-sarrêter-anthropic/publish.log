@@ -1,0 +1,6 @@
+[2026-05-12 04:43:51 UTC] audio                SKIP       audio.mp3 already exists
+[2026-05-12 04:43:51 UTC] transcript           START      Transcribing with Whisper
+[2026-05-12 04:43:53 UTC] transcript           FAIL       402 Client Error: Payment Required for url: https://openrouter.ai/api/v1/audio/transcriptions
+[2026-05-12 04:43:53 UTC] show_notes           SKIP       No transcript yet
+[2026-05-12 04:43:53 UTC] rss                  START      Updating RSS feed
+[2026-05-12 04:43:54 UTC] rss                  DONE       https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/feed/podcast.xml

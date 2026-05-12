@@ -1,0 +1,31 @@
+[episode]
+number = 13
+title = "Où va s'arrêter Anthropic ?"
+slug = "où-va-sarrêter-anthropic"
+description = "- The distillation panic https://substack.com/home/post/p-196156125"
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=jakXrDIT0dA"
+youtube_id = "jakXrDIT0dA"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"
