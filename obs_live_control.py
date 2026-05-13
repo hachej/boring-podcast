@@ -121,9 +121,9 @@ function nextFrame() {
   return new Promise(r => requestAnimationFrame(r));
 }
 
-async function load() {
-  const s = await fetch('/state').then(r => r.json());
-  const topics = s.topics && s.topics.length ? s.topics : ['—'];
+let lastTopicsKey = '';
+
+async function rebuild(topics) {
   const track = document.getElementById('ticker');
 
   // Inflate the topics list so ONE rendered copy is wider than the viewport.
@@ -152,8 +152,18 @@ async function load() {
   void track.offsetWidth;  // force reflow → restart animation cleanly
   track.style.animation = `march ${duration}s linear infinite`;
 }
-load();
-setInterval(load, 5000);
+
+async function poll() {
+  const s = await fetch('/state').then(r => r.json()).catch(() => null);
+  if (!s) return;
+  const topics = s.topics && s.topics.length ? s.topics : ['—'];
+  const key = JSON.stringify(topics);
+  if (key === lastTopicsKey) return;  // no change → leave animation running, no jump
+  lastTopicsKey = key;
+  await rebuild(topics);
+}
+poll();
+setInterval(poll, 4000);
 </script>
 </body>
 </html>"""
