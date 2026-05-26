@@ -1,0 +1,31 @@
+[episode]
+number = 15
+title = "Combien de datacenters la France doit construire ? (+ Google I/O and Anthropic news)"
+slug = "combien-de-datacenters-la-france-doit-construire-google-io-a"
+description = "Episode des news de la semaine précédentes avec beaucoup de sujets notamment la suite de l'intervention de Arthur Mensch devant la commission de l'assemblée nationale!"
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=O5Z56-brh8I"
+youtube_id = "O5Z56-brh8I"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"

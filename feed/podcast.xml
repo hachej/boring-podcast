@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 12 May 2026 04:43:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 19:27:44 +0000</lastBuildDate>
     <itunes:author>Christophe Blefari &amp; Julien Hurault</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/media/cover.png"/>
@@ -436,6 +436,28 @@ Regular co-hosts Julian and colleague discussing AI engineering news and trends.
       <itunes:duration>00:34:45</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>13</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Mistral devant les députés (et c'est super intéressant)</title>
+      <description>Arthur Mensch a été convoqué devant les députes pour une commission d'enquête sur la souveraineté. Son intervention est géniale et on y réagit.</description>
+      <guid isPermaLink="false">ep014-mistral-devant-les-députés-et-cest-super-intéressant</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep014-mistral-devant-les-députés-et-cest-super-intéressant/audio.mp3" length="80608799" type="audio/mpeg"/>
+      <pubDate>Tue, 26 May 2026 19:25:19 +0000</pubDate>
+      <itunes:duration>00:55:58</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Combien de datacenters la France doit construire ? (+ Google I/O and Anthropic news)</title>
+      <description>Episode des news de la semaine précédentes avec beaucoup de sujets notamment la suite de l'intervention de Arthur Mensch devant la commission de l'assemblée nationale!</description>
+      <guid isPermaLink="false">ep015-combien-de-datacenters-la-france-doit-construire-google-io-a</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep015-combien-de-datacenters-la-france-doit-construire-google-io-a/audio.mp3" length="45455715" type="audio/mpeg"/>
+      <pubDate>Tue, 26 May 2026 19:26:43 +0000</pubDate>
+      <itunes:duration>00:31:33</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>15</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>

@@ -1,0 +1,31 @@
+[episode]
+number = 14
+title = "Mistral devant les députés (et c'est super intéressant)"
+slug = "mistral-devant-les-députés-et-cest-super-intéressant"
+description = "Arthur Mensch a été convoqué devant les députes pour une commission d'enquête sur la souveraineté. Son intervention est géniale et on y réagit."
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=4O7MGFW1ehU"
+youtube_id = "4O7MGFW1ehU"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"
