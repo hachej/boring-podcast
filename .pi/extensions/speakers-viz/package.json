@@ -1,0 +1,12 @@
+{
+  "name": "speakers-viz",
+  "version": "0.1.0",
+  "private": true,
+  "boring": {
+    "label": "Speakers Viz",
+    "front": "front/index.tsx"
+  },
+  "pi": {
+    "systemPrompt": "Speakers Viz plugin visualizes potential_speakers.csv as one row per podcast guest, with top filters for search, Ligue tier, category, LinkedIn status, and minimum relevance score."
+  }
+}

@@ -25,3 +25,6 @@ episodes/**/*.flac
 client_secrets.json
 __pycache__/
 checkpoints/
+
+# Local/private scraping cookies
+linkedin-scraping-cookies.json
