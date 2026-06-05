@@ -14,7 +14,8 @@ type SpeakerRow = Record<string, string>
 const EMBEDDED_ROWS: SpeakerRow[] = [
   {
     "rank": "1",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Arthur Mensch",
     "primary_org": "Mistral AI",
     "category": "frontier AI lab",
@@ -24,12 +25,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "208000",
     "linkedin_confidence": "medium",
     "linkedin_note": "Found LinkedIn personal profile on LinkedIn (French localized domain). Preferred linkedin.com/in format may also work (localized URL used as evidence).",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/arthur-mensch/fr",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/arthur-mensch/fr"
   },
   {
     "rank": "2",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Guillaume Lample",
     "primary_org": "Mistral AI",
     "category": "LLM research",
@@ -39,12 +40,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "10000",
     "linkedin_confidence": "medium",
     "linkedin_note": "Found LinkedIn personal profile on LinkedIn (French localized domain).",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/guillaume-lample-7821095b",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/guillaume-lample-7821095b"
   },
   {
     "rank": "3",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Timothée Lacroix",
     "primary_org": "Mistral AI",
     "category": "LLM infrastructure",
@@ -54,12 +55,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "6000",
     "linkedin_confidence": "medium",
     "linkedin_note": "Personal LinkedIn profile found; name contains accented character in original but profile uses ascii handle.",
-    "linkedin_evidence_url": "https://www.linkedin.com/in/timothee-lacroix-59517977",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://www.linkedin.com/in/timothee-lacroix-59517977"
   },
   {
     "rank": "4",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Clément Delangue",
     "primary_org": "Hugging Face",
     "category": "open-source AI",
@@ -69,12 +70,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "307000",
     "linkedin_confidence": "high",
     "linkedin_note": "Clear personal LinkedIn profile (preferred linkedin.com/in handle).",
-    "linkedin_evidence_url": "https://www.linkedin.com/in/clementdelangue",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": "https://www.linkedin.com/in/clementdelangue"
   },
   {
     "rank": "5",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Thomas Wolf",
     "primary_org": "Hugging Face",
     "category": "open-source AI research",
@@ -84,12 +85,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "184000",
     "linkedin_confidence": "medium",
     "linkedin_note": "LinkedIn personal profile 'thom-wolf' matches public references to Hugging Face cofounder Thom/Thomas Wolf; some name ambiguity exists so confidence is medium.",
-    "linkedin_evidence_url": "https://www.linkedin.com/in/thom-wolf",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://www.linkedin.com/in/thom-wolf"
   },
   {
     "rank": "6",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Julien Chaumond",
     "primary_org": "Hugging Face",
     "category": "AI developer tools",
@@ -99,12 +100,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "251000",
     "linkedin_confidence": "high",
     "linkedin_note": "Clear personal LinkedIn profile (preferred linkedin.com/in handle).",
-    "linkedin_evidence_url": "https://www.linkedin.com/in/julienchaumond",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": "https://www.linkedin.com/in/julienchaumond"
   },
   {
     "rank": "7",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Yann LeCun",
     "primary_org": "Meta / NYU",
     "category": "AI research",
@@ -114,12 +115,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "1000000",
     "linkedin_confidence": "high",
     "linkedin_note": "Well-known public LinkedIn profile (preferred linkedin.com/in handle).",
-    "linkedin_evidence_url": "https://www.linkedin.com/in/yann-lecun",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": "https://www.linkedin.com/in/yann-lecun"
   },
   {
     "rank": "8",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "François Chollet",
     "primary_org": "Keras / ARC-AGI",
     "category": "AI evaluation",
@@ -129,12 +130,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "2000",
     "linkedin_confidence": "high",
     "linkedin_note": "Clear personal LinkedIn profile (preferred linkedin.com/in handle).",
-    "linkedin_evidence_url": "https://www.linkedin.com/in/fchollet",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": "https://www.linkedin.com/in/fchollet"
   },
   {
     "rank": "9",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Yoshua Bengio",
     "primary_org": "Mila",
     "category": "AI safety / research",
@@ -144,12 +145,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "83000",
     "linkedin_confidence": "high",
     "linkedin_note": "Found LinkedIn personal profile (Canada localized domain).",
-    "linkedin_evidence_url": "https://ca.linkedin.com/in/yoshuabengio",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": "https://ca.linkedin.com/in/yoshuabengio"
   },
   {
     "rank": "10",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Joëlle Pineau",
     "primary_org": "Meta / McGill",
     "category": "RL / research leadership",
@@ -159,12 +160,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "31000",
     "linkedin_confidence": "high",
     "linkedin_note": "Found LinkedIn personal profile (Canada localized domain). Profile handle includes numeric suffix as in evidence.",
-    "linkedin_evidence_url": "https://ca.linkedin.com/in/joelle-pineau-371574141",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": "https://ca.linkedin.com/in/joelle-pineau-371574141"
   },
   {
     "rank": "11",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Sébastien Bubeck",
     "primary_org": "OpenAI / ex-Microsoft",
     "category": "LLM reasoning",
@@ -174,12 +175,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "27000",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal LinkedIn profile found in entity dataset.",
-    "linkedin_evidence_url": "https://linkedin.com/in/sebastien-bubeck-6b558a1a5",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": "https://linkedin.com/in/sebastien-bubeck-6b558a1a5"
   },
   {
     "rank": "12",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Antoine Bordes",
     "primary_org": "Helsing / ex-Meta AI",
     "category": "RAG / defense AI",
@@ -189,12 +190,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "13000",
     "linkedin_confidence": "medium",
     "linkedin_note": "Profile found via search snippet; multiple similar names exist so confidence is medium.",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/antoinebordes",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/antoinebordes"
   },
   {
     "rank": "13",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Laurent Sifre",
     "primary_org": "H Company / ex-DeepMind",
     "category": "AI agents",
@@ -204,12 +205,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "12000",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal LinkedIn profile found in entity dataset (lists H Company, DeepMind).",
-    "linkedin_evidence_url": "https://linkedin.com/in/sifre",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://linkedin.com/in/sifre"
   },
   {
     "rank": "14",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Julien Perolat",
     "primary_org": "H Company / ex-DeepMind",
     "category": "multi-agent RL",
@@ -219,12 +220,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "1000",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal LinkedIn profile found in entity dataset (H Company, ex-DeepMind).",
-    "linkedin_evidence_url": "https://linkedin.com/in/julien-perolat-757076a1",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://linkedin.com/in/julien-perolat-757076a1"
   },
   {
     "rank": "15",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Gabriel Hubert",
     "primary_org": "Dust",
     "category": "enterprise AI agents",
@@ -234,12 +235,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "8000",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal LinkedIn profile found in entity dataset (Co-founder & CEO, Dust).",
-    "linkedin_evidence_url": "https://linkedin.com/in/gabhubert",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://linkedin.com/in/gabhubert"
   },
   {
     "rank": "16",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Stanislas Polu",
     "primary_org": "Dust / ex-OpenAI",
     "category": "agents / reasoning",
@@ -249,12 +250,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal LinkedIn profile found in entity dataset (Dust co-founder).",
-    "linkedin_evidence_url": "https://www.linkedin.com/in/spolu",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://www.linkedin.com/in/spolu"
   },
   {
     "rank": "17",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Patrick Pérez",
     "primary_org": "Kyutai",
     "category": "voice / open AI lab",
@@ -264,12 +265,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_found",
     "linkedin_note": "No unambiguous personal LinkedIn profile located in the datasets/searches; name variants (accent) may affect results.",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "18",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Neil Zeghidour",
     "primary_org": "Kyutai / Gradium",
     "category": "voice AI",
@@ -279,12 +280,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal LinkedIn profile found (CEO of Gradium, prior Kyutai/Google roles).",
-    "linkedin_evidence_url": "https://linkedin.com/in/neil-zeghidour-a838aaa7",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://linkedin.com/in/neil-zeghidour-a838aaa7"
   },
   {
     "rank": "19",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Alexandre Défossez",
     "primary_org": "Kyutai / ex-Meta",
     "category": "audio generation",
@@ -294,12 +295,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal LinkedIn profile supplied in prior verified context (Kyutai founding research team).",
-    "linkedin_evidence_url": "https://linkedin.com/in/alexandre-d%C3%A9fossez-b099ba7b",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://linkedin.com/in/alexandre-d%C3%A9fossez-b099ba7b"
   },
   {
     "rank": "20",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Maxime Beauchemin",
     "primary_org": "Preset / Airflow / Superset",
     "category": "data engineering",
@@ -309,12 +310,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "low",
     "linkedin_note": "Could not locate a single unambiguous personal profile in the datasets/search results; multiple people with similar names exist (Preset/Airflow/Superset affiliation not confirmed via dataset).",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "21",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Florian Douetteau",
     "primary_org": "Dataiku",
     "category": "enterprise AI platform",
@@ -324,12 +325,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Profile matches Dataiku Co-founder and CEO (clear personal linkedin.com/in profile).",
-    "linkedin_evidence_url": "https://linkedin.com/in/fdouetteau",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://linkedin.com/in/fdouetteau"
   },
   {
     "rank": "22",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Clément Stenac",
     "primary_org": "Dataiku",
     "category": "data / ML platform",
@@ -339,12 +340,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal linkedin.com/in profile associated with Dataiku (CTO/co-founder).",
-    "linkedin_evidence_url": "https://linkedin.com/in/clementstenac",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://linkedin.com/in/clementstenac"
   },
   {
     "rank": "23",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Gaël Varoquaux",
     "primary_org": "Inria / Probabl / scikit-learn",
     "category": "scientific ML",
@@ -354,12 +355,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal linkedin.com/in profile listing Inria and scikit-learn affiliations.",
-    "linkedin_evidence_url": "https://linkedin.com/in/gael-varoquaux-a8391411",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://linkedin.com/in/gael-varoquaux-a8391411"
   },
   {
     "rank": "24",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Olivier Grisel",
     "primary_org": "Probabl / scikit-learn",
     "category": "ML infra",
@@ -369,12 +370,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal linkedin.com/in profile (Probabl / scikit-learn contributor). Multiple variants exist; this URL matches the known profile.",
-    "linkedin_evidence_url": "https://www.linkedin.com/in/olivier-grisel-9131873",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://www.linkedin.com/in/olivier-grisel-9131873"
   },
   {
     "rank": "25",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Guillaume Lemaitre",
     "primary_org": "Probabl / scikit-learn",
     "category": "open-source ML",
@@ -384,12 +385,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "low",
     "linkedin_note": "Multiple LinkedIn profiles for people named Guillaume Lemaitre were found; none could be unambiguously confirmed as the Probabl / scikit-learn researcher. Returned evidence_url shows one candidate but confidence is LOW and linkedin_url set to null.",
-    "linkedin_evidence_url": "https://linkedin.com/in/guillaume-lemaitre-45362a112",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://linkedin.com/in/guillaume-lemaitre-45362a112"
   },
   {
     "rank": "26",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Sylvain Gugger",
     "primary_org": "Hugging Face / fast.ai",
     "category": "training tools",
@@ -399,12 +400,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_found",
     "linkedin_note": "No clear personal linkedin.com/in profile found in queried datasets for the Hugging Face / fast.ai author.",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "27",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Lysandre Debut",
     "primary_org": "Hugging Face",
     "category": "ML tooling",
@@ -414,12 +415,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal linkedin.com/in profile listing Hugging Face affiliation.",
-    "linkedin_evidence_url": "https://linkedin.com/in/lysandredebut",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://linkedin.com/in/lysandredebut"
   },
   {
     "rank": "28",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Victor Sanh",
     "primary_org": "Hugging Face",
     "category": "efficient NLP",
@@ -429,12 +430,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal linkedin.com/in profile associated with Hugging Face. (Alternate variant with suffix exists; chosen canonical variant.)",
-    "linkedin_evidence_url": "https://linkedin.com/in/victor-sanh",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://linkedin.com/in/victor-sanh"
   },
   {
     "rank": "29",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Ronan Collobert",
     "primary_org": "Meta / Torch",
     "category": "ML systems",
@@ -444,12 +445,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Personal linkedin.com/in profile found (researcher with Torch / Meta background).",
-    "linkedin_evidence_url": "https://linkedin.com/in/ronan-collobert",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://linkedin.com/in/ronan-collobert"
   },
   {
     "rank": "30",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Edouard Grave",
     "primary_org": "Meta AI",
     "category": "efficient NLP",
@@ -459,12 +460,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_found",
     "linkedin_note": "No clear personal linkedin.com/in profile found in queried datasets for Edouard Grave (Meta AI).",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "31",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Armand Joulin",
     "primary_org": "Meta AI / Google DeepMind",
     "category": "retrieval / NLP",
@@ -474,12 +475,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Public LinkedIn profile found (French LinkedIn URL) showing roles at Google DeepMind and prior Meta AI positions.",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/armand-joulin-0274254",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/armand-joulin-0274254"
   },
   {
     "rank": "32",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Maxime Oquab",
     "primary_org": "Meta AI",
     "category": "computer vision",
@@ -489,12 +490,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_found",
     "linkedin_note": "No linkedin.com/in personal profile located in searches; OpenReview and publication records show Meta affiliation.",
-    "linkedin_evidence_url": "https://openreview.net/profile?id=~Maxime_Oquab1",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://openreview.net/profile?id=~Maxime_Oquab1"
   },
   {
     "rank": "33",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Alexis Conneau",
     "primary_org": "ex-OpenAI / WaveForms",
     "category": "audio / multilingual AI",
@@ -504,12 +505,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_found",
     "linkedin_note": "No linkedin.com/in personal profile located in searches; Crunchbase and social posts identify Alexis Conneau as co-founder/CEO of WaveForms and ex-OpenAI.",
-    "linkedin_evidence_url": "https://www.crunchbase.com/person/alexis-conneau-e86c",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://www.crunchbase.com/person/alexis-conneau-e86c"
   },
   {
     "rank": "34",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Hugo Larochelle",
     "primary_org": "Mila / Google",
     "category": "ML education",
@@ -519,12 +520,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "9000",
     "linkedin_confidence": "high",
     "linkedin_note": "Public LinkedIn profile found showing Hugo Larochelle as Scientific Director at Mila (and Google affiliations).",
-    "linkedin_evidence_url": "https://ca.linkedin.com/in/hugolarochelle/en",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://ca.linkedin.com/in/hugolarochelle/en"
   },
   {
     "rank": "35",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Aurélien Géron",
     "primary_org": "ML author / engineer",
     "category": "ML education",
@@ -534,12 +535,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Public LinkedIn profile found for Aurélien Géron (author of 'Hands-On Machine Learning' and ML engineer).",
-    "linkedin_evidence_url": "https://nz.linkedin.com/in/aurelien-geron",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://nz.linkedin.com/in/aurelien-geron"
   },
   {
     "rank": "36",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Rand Hindi",
     "primary_org": "Zama / ex-Snips",
     "category": "privacy AI",
@@ -549,12 +550,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Public LinkedIn profile found showing Rand Hindi as CEO at Zama and investor roles.",
-    "linkedin_evidence_url": "https://www.linkedin.com/in/randhindi",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://www.linkedin.com/in/randhindi"
   },
   {
     "rank": "37",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Pascal Paillier",
     "primary_org": "Zama",
     "category": "cryptography",
@@ -564,12 +565,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Public LinkedIn profile found for Pascal Paillier (cryptographer, Zama CTO).",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/ppaillier",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/ppaillier"
   },
   {
     "rank": "38",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Alexandre Lebrun",
     "primary_org": "Nabla",
     "category": "health AI agents",
@@ -579,12 +580,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Public LinkedIn profile found for Alexandre LeBrun (co-founder of Nabla).",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/alexandrelebrun",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/alexandrelebrun"
   },
   {
     "rank": "39",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Martin Raison",
     "primary_org": "Nabla",
     "category": "health AI engineering",
@@ -594,12 +595,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_found",
     "linkedin_note": "No linkedin.com/in personal profile located in searches; company pages list him as co-founder of Nabla.",
-    "linkedin_evidence_url": "http://welcometothejungle.com/en/companies/nabla/tech-1",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "http://welcometothejungle.com/en/companies/nabla/tech-1"
   },
   {
     "rank": "40",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Thomas Clozel",
     "primary_org": "Owkin",
     "category": "biomedical AI",
@@ -609,12 +610,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_found",
     "linkedin_note": "No linkedin.com/in personal profile located in searches; could not locate an authoritative public LinkedIn profile during research.",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "41",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Gilles Wainrib",
     "primary_org": "Owkin",
     "category": "scientific ML",
@@ -624,12 +625,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Co-founder and CSO at Owkin.",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/gilles-wainrib-028a622",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/gilles-wainrib-028a622"
   },
   {
     "rank": "42",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Igor Carron",
     "primary_org": "LightOn",
     "category": "enterprise LLMs",
@@ -639,12 +640,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "CEO and co-founder of LightOn.",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/igorcarron",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/igorcarron"
   },
   {
     "rank": "43",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Laurent Daudet",
     "primary_org": "LightOn",
     "category": "AI hardware / compute",
@@ -654,12 +655,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Co-founder and former co-CEO of LightOn.",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/laurent-daudet-a845b02",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/laurent-daudet-a845b02"
   },
   {
     "rank": "44",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Florent Krzakala",
     "primary_org": "LightOn / EPFL",
     "category": "ML theory",
@@ -669,12 +670,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "medium",
     "linkedin_note": "Professor at EPFL; known co-founder of LightOn although snippet focuses on academic role.",
-    "linkedin_evidence_url": "https://www.linkedin.com/in/florentkrzakala",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": "https://www.linkedin.com/in/florentkrzakala"
   },
   {
     "rank": "45",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Matthieu Rouif",
     "primary_org": "Photoroom",
     "category": "generative image AI",
@@ -684,12 +685,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Co-founder & CEO of Photoroom.",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/matthieurouif",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/matthieurouif"
   },
   {
     "rank": "46",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Eliot Andres",
     "primary_org": "Photoroom",
     "category": "computer vision product",
@@ -699,12 +700,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Co-founder and CTO at Photoroom.",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/eliotandres",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/eliotandres"
   },
   {
     "rank": "47",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Julien Launay",
     "primary_org": "Adaptive ML",
     "category": "RLOps / evals",
@@ -714,12 +715,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "5000",
     "linkedin_confidence": "high",
     "linkedin_note": "Cofounder & CEO at Adaptive ML.",
-    "linkedin_evidence_url": "https://www.linkedin.com/in/julienlaunay",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://www.linkedin.com/in/julienlaunay"
   },
   {
     "rank": "48",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Baptiste Pannier",
     "primary_org": "Adaptive ML",
     "category": "RLOps engineering",
@@ -729,12 +730,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Cofounder & CTO at Adaptive ML.",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/baptiste-pannier-b30758154",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/baptiste-pannier-b30758154"
   },
   {
     "rank": "49",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Jean-Philippe Aumasson",
     "primary_org": "cryptography/security",
     "category": "AI security",
@@ -744,12 +745,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Cryptography expert and CSO.",
-    "linkedin_evidence_url": "https://ch.linkedin.com/in/aumasson",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://ch.linkedin.com/in/aumasson"
   },
   {
     "rank": "50",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Baptiste Robert",
     "primary_org": "Predicta Lab / fs0c131y",
     "category": "cybersecurity",
@@ -759,12 +760,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "high",
     "linkedin_note": "Security researcher known as fs0c131y and CEO of Predicta Lab.",
-    "linkedin_evidence_url": "https://fr.linkedin.com/in/baptisterobert",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": "https://fr.linkedin.com/in/baptisterobert"
   },
   {
     "rank": "51",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Xavier Niel",
     "primary_org": "Iliad / Station F / Kyutai",
     "category": "AI ecosystem / compute",
@@ -774,12 +775,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "52",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Octave Klaba",
     "primary_org": "OVHcloud",
     "category": "cloud / sovereignty",
@@ -789,12 +790,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "53",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Cédric O",
     "primary_org": "Mistral AI adviser / ex-government",
     "category": "AI policy / ecosystem",
@@ -804,12 +805,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "54",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Cédric Villani",
     "primary_org": "Mathematician / ex-MP",
     "category": "AI policy / research",
@@ -819,12 +820,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "55",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Luc Julia",
     "primary_org": "Renault / ex-Siri",
     "category": "AI product",
@@ -834,12 +835,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "56",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Roxanne Varza",
     "primary_org": "Station F",
     "category": "startup ecosystem",
@@ -849,12 +850,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "57",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Fleur Pellerin",
     "primary_org": "Korelya Capital",
     "category": "VC / policy",
@@ -864,12 +865,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "58",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Jean-Gabriel Ganascia",
     "primary_org": "Sorbonne University",
     "category": "AI ethics",
@@ -879,12 +880,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "59",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Gilles Babinet",
     "primary_org": "Digital champion / entrepreneur",
     "category": "digital policy",
@@ -894,12 +895,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "60",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Marie-Laure Denis",
     "primary_org": "CNIL",
     "category": "privacy / regulation",
@@ -909,12 +910,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "61",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Rémi Stefanini",
     "primary_org": "CNIL",
     "category": "technical privacy / AI governance",
@@ -924,12 +925,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "62",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Samih Souissi",
     "primary_org": "ANSSI",
     "category": "cybersecurity",
@@ -939,12 +940,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "63",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Nicolas Miailhe",
     "primary_org": "The Future Society",
     "category": "AI governance",
@@ -954,12 +955,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "64",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Antoine Petit",
     "primary_org": "CNRS",
     "category": "public research",
@@ -969,12 +970,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "65",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Jérôme Pesenti",
     "primary_org": "ex-Meta AI / Sizzle / Campus",
     "category": "AI leadership",
@@ -984,12 +985,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "66",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Stanislas Dehaene",
     "primary_org": "Collège de France",
     "category": "cognitive science",
@@ -999,12 +1000,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "67",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Pierre-Yves Oudeyer",
     "primary_org": "Inria",
     "category": "developmental robotics",
@@ -1014,12 +1015,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "68",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Jean-Paul Laumond",
     "primary_org": "CNRS / robotics",
     "category": "robotics",
@@ -1029,12 +1030,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "69",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Adrien Gaidon",
     "primary_org": "Toyota Research Institute",
     "category": "computer vision / robotics",
@@ -1044,12 +1045,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "70",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Pierre Stock",
     "primary_org": "Google DeepMind",
     "category": "ML robustness",
@@ -1059,12 +1060,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "71",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Alexandre Sablayrolles",
     "primary_org": "Meta AI / ML research",
     "category": "ML robustness",
@@ -1074,12 +1075,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "72",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Hugo Thimonier",
     "primary_org": "Mistral AI",
     "category": "multimodal LLMs",
@@ -1089,12 +1090,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "73",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Maël Nison",
     "primary_org": "Mistral AI / Yarn",
     "category": "platform engineering",
@@ -1104,12 +1105,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "74",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Théophile Gervet",
     "primary_org": "Mistral AI",
     "category": "LLM research",
@@ -1119,12 +1120,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "75",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Alexandre Gramfort",
     "primary_org": "Inria / scikit-learn",
     "category": "scientific Python",
@@ -1134,12 +1135,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "76",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Bertrand Thirion",
     "primary_org": "Inria",
     "category": "ML for science",
@@ -1149,12 +1150,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "77",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Julien Mairal",
     "primary_org": "Inria",
     "category": "ML theory / optimization",
@@ -1164,12 +1165,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "78",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Francis Bach",
     "primary_org": "Inria / ENS",
     "category": "ML theory",
@@ -1179,12 +1180,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "79",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Rémi Munos",
     "primary_org": "Google DeepMind",
     "category": "reinforcement learning",
@@ -1194,12 +1195,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "80",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Stéphane Mallat",
     "primary_org": "Collège de France",
     "category": "deep learning theory",
@@ -1209,12 +1210,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "81",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Gabriel Peyré",
     "primary_org": "CNRS / ENS",
     "category": "optimal transport / generative AI",
@@ -1224,12 +1225,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "82",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Isabelle Guyon",
     "primary_org": "AutoML / ChaLearn",
     "category": "AutoML / benchmarks",
@@ -1239,12 +1240,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "83",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Cordelia Schmid",
     "primary_org": "Inria / Google Research",
     "category": "computer vision",
@@ -1254,12 +1255,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "84",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Jean Ponce",
     "primary_org": "Inria / ENS",
     "category": "computer vision",
@@ -1269,12 +1270,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "85",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Jean-Philippe Vert",
     "primary_org": "Owkin / Google",
     "category": "bio ML",
@@ -1284,12 +1285,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "86",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Karim Beguir",
     "primary_org": "InstaDeep / BioNTech",
     "category": "applied AI / RL",
@@ -1299,12 +1300,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "87",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Zohra Slim",
     "primary_org": "InstaDeep",
     "category": "AI startup operations",
@@ -1314,12 +1315,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "88",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Etienne Bernard",
     "primary_org": "NuMind",
     "category": "NLP tooling",
@@ -1329,12 +1330,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "89",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Thomas Solignac",
     "primary_org": "Golem.ai",
     "category": "enterprise NLP",
@@ -1344,12 +1345,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "90",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Boris Dayma",
     "primary_org": "Craiyon",
     "category": "generative image AI",
@@ -1359,12 +1360,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "91",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Romain Huet",
     "primary_org": "OpenAI / ex-Stripe",
     "category": "developer relations",
@@ -1374,12 +1375,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "92",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Benoît Dageville",
     "primary_org": "Snowflake",
     "category": "data cloud",
@@ -1389,12 +1390,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "93",
-    "ligue": "Ligue 3",
+    "ligue": "Champions League",
+    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book",
     "name": "Thierry Cruanes",
     "primary_org": "Snowflake",
     "category": "database systems",
@@ -1404,12 +1405,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Moonshot: very high-profile, institutional, or likely hard to book"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "94",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Nicolas Dessaigne",
     "primary_org": "Algolia",
     "category": "search / developer tools",
@@ -1419,12 +1420,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "95",
-    "ligue": "Ligue 2",
+    "ligue": "Ligue 1",
+    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile",
     "name": "Julien Lemoine",
     "primary_org": "Algolia",
     "category": "search engineering",
@@ -1434,12 +1435,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Reachable with warm intro or timely angle; senior/busy profile"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "96",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Tristan Nitot",
     "primary_org": "Mozilla / Cozy Cloud",
     "category": "open web / privacy",
@@ -1449,12 +1450,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "97",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Jean-Baptiste Kempf",
     "primary_org": "VideoLAN",
     "category": "open source / media",
@@ -1464,12 +1465,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "98",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Fabien Potencier",
     "primary_org": "Symfony / Blackfire",
     "category": "developer tools",
@@ -1479,12 +1480,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "99",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "Kévin Dunglas",
     "primary_org": "API Platform / Mercure",
     "category": "developer tools",
@@ -1494,12 +1495,12 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   },
   {
     "rank": "100",
-    "ligue": "Ligue 1",
+    "ligue": "Ligue 2",
+    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible",
     "name": "David Bessis",
     "primary_org": "Tinyclues / author",
     "category": "AI / mathematics",
@@ -1509,8 +1510,7 @@ const EMBEDDED_ROWS: SpeakerRow[] = [
     "linkedin_followers": "",
     "linkedin_confidence": "not_enriched",
     "linkedin_note": "",
-    "linkedin_evidence_url": "",
-    "accessibility_note": "Realistic outreach target: technical/niche/operator profile likely more accessible"
+    "linkedin_evidence_url": ""
   }
 ]
 
@@ -1573,16 +1573,16 @@ function unique(rows: SpeakerRow[], key: string) {
 }
 
 function leagueClass(league: string) {
-  if (league === "Ligue 1") return "border-emerald-500/40 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300"
-  if (league === "Ligue 2") return "border-sky-500/40 bg-sky-500/10 text-sky-700 dark:text-sky-300"
-  return "border-zinc-500/40 bg-zinc-500/10 text-zinc-700 dark:text-zinc-300"
+  if (league === "Champions League") return "border-purple-500/40 bg-purple-500/10 text-purple-700 dark:text-purple-300"
+  if (league === "Ligue 1") return "border-sky-500/40 bg-sky-500/10 text-sky-700 dark:text-sky-300"
+  return "border-emerald-500/40 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300"
 }
 
 
 function tierLabel(league: string) {
-  if (league === "Ligue 1") return "L1 easy"
-  if (league === "Ligue 2") return "L2 warm"
-  if (league === "Ligue 3") return "L3 moonshot"
+  if (league === "Champions League") return "Champions"
+  if (league === "Ligue 1") return "L1 warm"
+  if (league === "Ligue 2") return "L2 easy"
   return league
 }
 
