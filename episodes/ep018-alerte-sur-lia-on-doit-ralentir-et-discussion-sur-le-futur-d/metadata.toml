@@ -1,0 +1,32 @@
+[episode]
+number = 18
+title = "Alerte sur l'IA, on doit ralentir (et discussion sur le futur des devs)"
+slug = "alerte-sur-lia-on-doit-ralentir-et-discussion-sur-le-futur-d"
+description = "S02E02 ; on parle du futur du métier de dev et est-ce qu'il va être remplacé par des personnes moins techniques, news sur le ralentissement du développement des IA."
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=707vKNMeBSc"
+youtube_id = "707vKNMeBSc"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+date = "2026-09-22T12:00:00+00:00"
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 2
+episode_type = "full"

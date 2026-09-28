@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 04 Jun 2026 06:05:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 19:33:08 +0000</lastBuildDate>
     <itunes:author>Christophe Blefari &amp; Julien Hurault</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/media/cover.png"/>
@@ -469,6 +469,28 @@ Regular co-hosts Julian and colleague discussing AI engineering news and trends.
       <itunes:duration>00:28:54</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>16</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Software factories, Grok Bot, GPT-6 Astra</title>
+      <description>Retour du podcast! S02E01</description>
+      <guid isPermaLink="false">ep017-software-factories-grok-bot-gpt-6-astra</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep017-software-factories-grok-bot-gpt-6-astra/audio.mp3" length="67950764" type="audio/mpeg"/>
+      <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+      <itunes:duration>00:47:11</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>17</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Alerte sur l'IA, on doit ralentir (et discussion sur le futur des devs)</title>
+      <description>S02E02 ; on parle du futur du métier de dev et est-ce qu'il va être remplacé par des personnes moins techniques, news sur le ralentissement du développement des IA.</description>
+      <guid isPermaLink="false">ep018-alerte-sur-lia-on-doit-ralentir-et-discussion-sur-le-futur-d</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep018-alerte-sur-lia-on-doit-ralentir-et-discussion-sur-le-futur-d/audio.mp3" length="37109420" type="audio/mpeg"/>
+      <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
+      <itunes:duration>00:25:46</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>18</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>

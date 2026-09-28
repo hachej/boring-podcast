@@ -1,0 +1,32 @@
+[episode]
+number = 17
+title = "Software factories, Grok Bot, GPT-6 Astra"
+slug = "software-factories-grok-bot-gpt-6-astra"
+description = "Retour du podcast! S02E01"
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=c9yiwrrR__4"
+youtube_id = "c9yiwrrR__4"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+date = "2026-09-15T12:00:00+00:00"
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 2
+episode_type = "full"
