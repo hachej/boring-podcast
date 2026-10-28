@@ -1,0 +1,32 @@
+[episode]
+number = 20
+title = "Meta Muse, Jev et le plagiat en IA"
+slug = "meta-muse-jev-et-le-plagiat-en-ia"
+description = "S02E04 ; Meta Muse, Jev et le plagiat en IA."
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=jhMwaaZEyqc"
+youtube_id = "jhMwaaZEyqc"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+date = "2026-10-07T12:00:00+00:00"
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 2
+episode_type = "full"

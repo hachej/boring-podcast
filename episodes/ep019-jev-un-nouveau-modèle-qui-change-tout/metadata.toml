@@ -1,0 +1,32 @@
+[episode]
+number = 19
+title = "Jev, un nouveau modèle qui change tout ?"
+slug = "jev-un-nouveau-modèle-qui-change-tout"
+description = "S02E03 ; Cette semaine on parle de Jev qui a pris internet de hype ces 10 derniers jours avec une explication, une démo et quelques cas d'usages intéressant ! On parle aussi des news habituelles"
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=9P-oS5lLGiw"
+youtube_id = "9P-oS5lLGiw"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+date = "2026-09-29T12:00:00+00:00"
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 2
+episode_type = "full"

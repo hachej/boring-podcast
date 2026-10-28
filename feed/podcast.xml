@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 28 Sep 2026 19:33:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 14:21:13 +0000</lastBuildDate>
     <itunes:author>Christophe Blefari &amp; Julien Hurault</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/media/cover.png"/>
@@ -491,6 +491,50 @@ Regular co-hosts Julian and colleague discussing AI engineering news and trends.
       <itunes:duration>00:25:46</itunes:duration>
       <itunes:season>2</itunes:season>
       <itunes:episode>18</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Jev, un nouveau modèle qui change tout ?</title>
+      <description>S02E03 ; Cette semaine on parle de Jev qui a pris internet de hype ces 10 derniers jours avec une explication, une démo et quelques cas d'usages intéressant ! On parle aussi des news habituelles</description>
+      <guid isPermaLink="false">ep019-jev-un-nouveau-modèle-qui-change-tout</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep019-jev-un-nouveau-modèle-qui-change-tout/audio.mp3" length="37608812" type="audio/mpeg"/>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
+      <itunes:duration>00:26:07</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>19</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Meta Muse, Jev et le plagiat en IA</title>
+      <description>S02E04 ; Meta Muse, Jev et le plagiat en IA.</description>
+      <guid isPermaLink="false">ep020-meta-muse-jev-et-le-plagiat-en-ia</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep020-meta-muse-jev-et-le-plagiat-en-ia/audio.mp3" length="40843628" type="audio/mpeg"/>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+      <itunes:duration>00:28:21</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>20</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Mistral a sorti un nouveau modèle et OpenAI dots</title>
+      <description>S02E05 ; Mistral a sorti un nouveau modèle et OpenAI dots.</description>
+      <guid isPermaLink="false">ep021-mistral-a-sorti-un-nouveau-modèle-et-openai-dots</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep021-mistral-a-sorti-un-nouveau-modèle-et-openai-dots/audio.mp3" length="34477100" type="audio/mpeg"/>
+      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
+      <itunes:duration>00:23:56</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>21</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Photoshop et Excel open-source, Meta Muse Wonder</title>
+      <description>S02E06 ; Photoshop et Excel open-source, Meta Muse Wonder.</description>
+      <guid isPermaLink="false">ep022-photoshop-et-excel-open-source-meta-muse-wonder</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep022-photoshop-et-excel-open-source-meta-muse-wonder/audio.mp3" length="54828332" type="audio/mpeg"/>
+      <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+      <itunes:duration>00:38:04</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>22</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>

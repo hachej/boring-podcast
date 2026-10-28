@@ -1,0 +1,32 @@
+[episode]
+number = 22
+title = "Photoshop et Excel open-source, Meta Muse Wonder"
+slug = "photoshop-et-excel-open-source-meta-muse-wonder"
+description = "S02E06 ; Photoshop et Excel open-source, Meta Muse Wonder."
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=zRObkFEMkYc"
+youtube_id = "zRObkFEMkYc"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+date = "2026-10-21T12:00:00+00:00"
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 2
+episode_type = "full"
